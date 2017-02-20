@@ -75,6 +75,7 @@ player createDiarySubject ["controls","Steuerung"];
 		[
 			"Changelog Server",
 				"
+					Der Changelog kann auch auf GitHub verfolgt werden! https://github.com/ErikMast3r/Exclusiv-Altis-Life/releases<br/><br/>
 					+ = hinzugefügt<br/>
 					- = entfernt<br/>
 					~ = verändert<br/>
