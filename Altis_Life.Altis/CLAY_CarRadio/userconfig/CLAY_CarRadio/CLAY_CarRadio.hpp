@@ -1,0 +1,159 @@
+//  User Playlist
+//  Format: [ [<ClassName | String>, <Title | String>, <Length (in seconds) | Number>] ]
+
+_userPlaylist = [["radio1", "Beach Club", 88]];
+_userPlaylist = [["radio2", "B@itch (Bass)", 39]];
+_userPlaylist = [["radio3", "Gone by Friday (Rock)", 94]];
+_userPlaylist = [["radio4", "Hardcore (RAP)", 85]];
+_userPlaylist = [["radio5", "Dubstep", 39]];
+_userPlaylist = [["radio6", "Lies (Techno)", 42]];
+_userPlaylist = [["radio7", "One Winged Angel (Metal)", 48]];
+_userPlaylist = [["radio8", "Hello Again (Schlager)", 27]];
+_userPlaylist = [["radio9", "Jesus (Gitarre)", 39]];
+_userPlaylist = [["Fallout", "Fallout", 163]];
+_userPlaylist = [["Defcon", "Defcon", 145]];
+_userPlaylist = [["Wasteland", "Wasteland", 142]];
+_userPlaylist = [["SkyNet", "Sky Net", 175]];
+_userPlaylist = [["MAD", "Mutual Assured Destruction", 153]];
+
+
+
+//  Key number 'PLAY/PAUSE' - default PAUSE
+
+_keyPlay = 197;
+
+
+
+//  Key number 'NEXT TRACK' - default RIGHT ARROW
+
+_keyNext = 205;
+
+
+
+//  Key number 'PREVIOUS TRACK' - default LEFT ARROW
+
+_keyPre = 203;
+
+
+
+//  Key number 'VOLUME UP' - default UP ARROW
+
+_keyVolUp = 200;
+
+
+
+//  Key number 'VOLUME DOWN' - default DOWN ARROW
+
+_keyVolDown = 208;
+
+
+
+
+/*  Keycodes are listed below
+
+ESC = 1 
+F1 = 59 
+F2 = 60 
+F3 = 61 
+F4 = 62 
+F5 = 63 
+F6 = 64 
+F7 = 65 
+F8 = 66 
+F9 = 67 
+F10 = 68 
+F11 = 87 
+F12 = 88 
+PRINT = 183 
+SCROLL = 70 
+PAUSE = 197 
+^ = 41 
+1 = 2 
+2 = 3 
+3 = 4 
+4 = 5 
+5 = 6 
+6 = 7 
+7 = 8 
+8 = 9 
+9 = 10 
+0 = 11 
+ß = 12 
+´ = 13 
+Ü = 26 
+Ö = 39 
+Ä = 40 
+# = 43 
+< = 86 
+, = 51 
+. = 52 
+- = 53 
++ = NOT DEFINED 
+POS1 = 199 
+TAB = 15 
+ENTER = 28 
+DELETE = 211 
+BACKSPACE = 14 
+INSERT = 210 
+END = 207 
+PAGEUP = 201 
+PAGEDOWN = 209 
+CAPS = 58 
+A = 30 
+B = 48 
+C = 46 
+D = 32 
+E = 18 
+F = 33 
+G = 34 
+H = 35 
+I = 23 
+J = 36 
+K = 37 
+L = 38 
+M = 50 
+N = 49 
+O = 24 
+P = 25 
+Q = 16 
+U = 22 
+R = 19 
+S = 31 
+T = 20 
+V = 47 
+W = 17 
+X = 45 
+Y = 44 
+Z = 21 
+SHIFTL = 42 
+SHIFTR = 54 
+UP = 200 
+DOWN = 208 
+LEFT = 203 
+RIGHT = 205 
+NUM_0 = 82 
+NUM_1 = 79 
+NUM_2 = 80 
+NUM_3 = 81 
+NUM_4 = 75 
+NUM_5 = 76 
+NUM_6 = 77 
+NUM_7 = 71 
+NUM_8 = 72 
+NUM_9 = 73 
+NUM_+ = 78 
+NUM = 69 
+NUM_/ = 181 
+NUM_* = 55 
+NUM_- = 74 
+NUM_, = 83 
+NUM_ENTER = 156 
+STRGL = 29 
+STRGR = 157 
+WINL = 220 
+WINR = 219 
+ALT = 56 
+SPACE = 57 
+ALTGR = 184 
+APP = 221
+*/

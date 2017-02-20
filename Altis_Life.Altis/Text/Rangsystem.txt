@@ -1,0 +1,128 @@
+/*
+
+	- Landespolizei: jeder der zur Polizei geht, Leitung: LPP
+	- Sondereinsatzkommando: fähige Leute ab PKA möglich, Ausbildungsende: PK, Leitung: LPD, untersteht: Landespolizei
+	- Bundespolizei: statt Landespolizei wahlweise auch Bundespolizei möglich, späterer Wechsel nicht möglich, Leitung: PP, untersteht: /
+	- Kriminalpolizei: bei Interesse ab PKA möglich, Ausbildungsende: PK, Leitung: PR+POR, untersteht: Landespolizei
+	
+	LEVEL - BEZEICHNUNG - ABKÜRZUNG - FAHRZEUG - HELIKOPTER - WESTE - KOPFBEDECKUNG - WAFFE
+	
+		LEVEL: Benutzung: stimmt mit "__GETC__(life_coplevel)" überein
+		BEZEICHNUNG: Benutzung: auf offiziellen Plattformen (Ausweis, etc)
+		ABKÜRZUNG: Benutzung: Servergruppe TS, im Spielernamen
+
+*/
+
+Landespolizei:
+
+1  - Polizeimeisteranwärter 		   - PMA 	- Quad 									- / 						- Polizeiholster						- TRYK Woolcap							- P99 +
+2  - Polizeimeister 			 	   - PM 	- Limousine 							- /							- /										- /										- RFB SDAR +
+3  - Polizeiobermeister				   - POM 	- / 									- /							- Kugelsichere Weste					- Mütze (schwarz)						- CPW +
+4  - Polizeihauptmeister 			   - PHM 	- Geländewagen		 					- /							- /										- /										- Scorpion Evo3
+5  - Polizeihauptmeister mit Zulage    - PHMZ	- /										- /							- Polizeigürtel							- Beanie-Mütze							- Sig P226
+
+6  - Polizeikommissaranwärter 		   - PKA 	- Renault Clio							- /							- /										- Militärmütze (blau)					- Vector SMG
+7  - Polizeikommissar 				   - PK 	- Peugeot 308 							- Hummingbird				- Polizeiweste							- /										- Custom Covert II *
+8  - Polizeioberkommissar 			   - POK 	- VW Touareg 							- UH-1 D					- /										- Polizeimütze							- HK MP5
+9  - Polizeihauptkommissar 			   - PHK 	- SUV 									- EC635						- Polizeiweste (schwer)					- /										- F2000 T *
+10 - Polizeihauptkommissar mit Zulage  - PHKZ 	- Audi Q7 								- Orca						- /										- TRYK headsetcap Glasses				- Glock 18
+11 - Erster Polizeihauptkommissar 	   - EPHK 	- Renault Megane 						- UH-1 H					- TAC V1 MARSHAL						- /										- Steyr AUG A2 9mm
+
+12 - Polizeiratanwärter 			   - PRA 	- Peugeot 508 							- Hellcat					- /										- Barett (schwarz)						- Steyr AUG A2
+13 - Polizeirat 					   - PR 	- Limousine Sport 						- Ghost Hawk				- TAC V1 MARSHAL Tactical				- /										- P90
+14 - Polizeioberrat 				   - POR 	- Ducati 								- Pawnee					- /										- /										- MX
+15 - Polizeidirektor 				   - PD 	- Mercedes Sprinter 					- EC635 (bewaffnet)			- Patronengurt							- Barett NATO Colonel					- Honey Badger
+16 - Leitender Polizeidirektor 		   - LPD 	- BMW 1 								- Orca (bewaffnet)			- /										- /										- Steyr AUG A3
+
+17 - Vizepolizeipräsident 			   - VPP 	- Agera 								- Hellcat (bewaffnet)		- SEK-Weste								- Barett NATO							- HK G36
+18 - Polizeipräsident 				   - PP		- / 									- Huron						- /										- /										- AA12
+19 - Vizelandespolizeipräsident 	   - VLPP 	- / 									- Osprey					- /										- /										- FNX-45 Tactical *
+20 - Landespolizeipräsident 		   - LPP 	- / 									- Blackfoot, Abfangjäger	- /										- /										- Remington ACR
+
+
+LPP,VLPP: Leitung Polizei - x1,x1
+PP,VPP: Leitung Landespolizei, Leitung Polizeipräsidium Akatoshi - x1,x1
+LPD: Leitung Polizeidirektion Airport - x1
+PD: Leitung Polizeidirektion Ryoushi Mura/Akatoshi Ost - x2
+POR: Leitung verschiedener Bereiche: Überfälle/Geiselnahmen - x2
+PR: Leitung verschiedener Bereiche: Drogen/Mord/Raub - x3
+PRA: Leitung verschiedener Bereiche: Verkehr/Farming - x2
+EPHK: Einsatzleitung/Leitstelle - x1
+PHKZ,PHK: Leitung einzelner Teams/Streifen x2,x3
+POK,PK,PKA: Polizisten für Sonderaufgaben/SOKOs x4,x4,x2
+PHMZ,PHM,POM,PM,PMA: Polizisten im Streifendienst x2,x5,x6,x7,x8
+
+
+
+
+Sondereinsatzkommando:
+
+6  - Polizeikommissaranwärter 		   - PKA 	- VW Touareg, Geländewagen 				- Hummingbird				- TAC V1 MARSHAL SWAT, Polizeigürtel	- TRYK PASGT, TRYK Woolcap				- P99 +, RFB SDAR +, CPW +, Scorpion Evo3, Sig P226, Vector SMG, HK MP5, F2000 T *, Steyr AUG A2
+7  - Polizeikommissar 				   - PK 	- BMW M5, Porsche Cayenne 				- EC635						- TAC V1 MARSHAL Tactical				- Kampfhelm, Beanie-Mütze				- Bushmaster .300, Colt Carbine, Colt M4, M4 A1, M4A3, P90, USP45
+8  - Polizeioberkommissar 			   - POK 	- SUV, Mercedes C63 					- UH-1 H					- TAC V1 POLICE shoulder				- Verbesserter Kampfhelm				- MX, Steyr AUG A3, Remington ACR, BCM Jack Carbine, HK G3 KA4, Custom Covert II *
+9  - Polizeihauptkommissar 			   - PHK 	- Audi RS4, Hunter 						- Hellcat					- SEK-Weste (schwer)					- SEK-Helm mit Visier, Polizeimütze		- AR15 Magpul Carbine, AR15 Sanitised Carbine, CAG HK 416, Glock 18
+10 - Polizeihauptkommissar mit Zulage  - PHKZ 	- Mercedes G65, Strider 				- Ghost Hawk				- SEK-Weste (Breacher)					- TRYK headsetcap Glasses				- AA12, HK G36, Mk13, M249, USP40, NLAW
+
+12 - Polizeiratanwärter 			   - PRA 	- Hunter HMG, Strider HMG 				- Pawnee					- SEK-Weste								- Barett (schwarz)						- Stoner LMG *, Glock 19, Titan
+13 - Polizeirat 					   - PR 	- Ridgeback 							- EC635 (Support)			- Tragegurt (schwarz)					- Leichter Kampfhelm					- Sig 556, HK121
+14 - Polizeioberrat 				   - POR 	- Marid 								- Huron						- Chest-Rig								- SEK-Balaclava							- M32, Honey Badger
+15 - Polizeidirektor 				   - PD 	- Hunter GMG, Strider GMG 				- Osprey					- Polizeiweste							- Barett NATO Colonel					- M134D
+16 - Leitender Polizeidirektor 		   - LPD 	- Marshal 								- /							- Patronengurt							- /										- FNX-45 Tactical *
+	
+
+LPD,PD: Leitung SEK x1,x1
+POR,PR,PRA: Leitung einzelner Teams x0-2,x0-2,x0-2 = x2
+PHKZ,PHK,POK,PK: SEK-Beamte in 2 Teams x0-6,x0-6,x0-6,x0-6 = x6
+
+
+
+
+Bundespolizei:
+
+1  - Polizeimeisteranwärter 		   - PMA 	- Quad 									- / 						- Polizeiholster						- /										- P99 +
+2  - Polizeimeister 			 	   - PM 	- Limousine 							- /							- /										- TRYK Woolcap							- RFB SDAR +
+3  - Polizeiobermeister				   - POM 	- Geländewagen 							- /							- Kugelsichere Weste					- /										- CPW +
+4  - Polizeihauptmeister 			   - PHM 	- Renault Clio 							- /							- /										- Mütze (schwarz)						- Scorpion Evo3
+5  - Polizeihauptmeister mit Zulage    - PHMZ 	- Peugeot 308 							- /							- Polizeigürtel							- /										- Sig P226
+
+6  - Polizeikommissaranwärter 		   - PKA 	- VW Touareg 							- Hummingbird				- /										- Beanie-Mütze							- Vector SMG
+7  - Polizeikommissar 				   - PK 	- SUV 									- /							- Polizeiweste							- /										- Custom Covert II *
+8  - Polizeioberkommissar 			   - POK 	- Audi Q7 								- EC635						- /										- Polizeimütze							- HK MP5
+9  - Polizeihauptkommissar 			   - PHK 	- Renault Megane 						- /							- Polizeiweste (schwer)					- /										- F2000 T *
+10 - Polizeihauptkommissar mit Zulage  - PHKZ 	- Peugeot 508 							- UH-1 H					- /										- TRYK headsetcap Glasses				- Glock 18
+11 - Erster Polizeihauptkommissar 	   - EPHK 	- Limousine Sport 						- /							- TAC V1 MARSHAL						- /										- Steyr AUG A2 9mm
+
+12 - Polizeiratanwärter 			   - PRA 	- BMW 1 								- Hellcat					- /										- Barett (schwarz)						- Steyr AUG A2
+13 - Polizeirat 					   - PR 	- Hunter 								- /							- TAC V1 MARSHAL Tactical				- /										- P90
+14 - Polizeioberrat 				   - POR 	- Sprinter 								- Ghost Hawk				- /										- /										- MX
+15 - Polizeidirektor 				   - PD 	- Hunter HMG 							- /							- Patronengurt							- Barett NATO Colonel					- Honey Badger
+16 - Leitender Polizeidirektor 		   - LPD 	- Marid 								- Huron						- /										- /										- Steyr AUG A3
+
+17 - Vizepolizeipräsident 			   - VPP 	- Hunter GMG 							- /							- SEK-Weste								- Barett NATO							- HK G36
+18 - Polizeipräsident 				   - PP 	- Agera 								- Osprey					- /										- /										- AA12
+
+
+PP,VPP: Leitung Bundespolizei x1,x1
+LPD,PD: Leitung Grenzübergänge x1,x1
+POR,PR,PRA: Leitung Checkpoints x0-3,x0-3,x0-3 = x3
+EPHK: Leitstelle BPol x1
+PHKZ,PHK,POK,PK,PKA: Beamte für Grenzübergänge und spezielle Aufgaben x0-5,x0-5,x0-5,x0-5,x0-5 = x5
+PHMZ,PHM,POM,PM,PMA: Beamte für Checkpoints und Fahndungen x0-5,x0-5,x0-5,x0-5,x0-5 = x5
+
+
+
+
+Kriminalpolizei:
+
+6  - Kriminalkommissaranwärter 		   - KKA 	- Golf VI, Limousine					- /							- Polizeiholster						- TRYK Woolcap							- P226 , CPW +, Scorpion Evo3, Vector SMG
+7  - Kriminalkommissar 				   - KK 	- Ford Fusion, Geländewagen				- Hummingbird				- Kugelsichere Weste					- TRYK headsetcap Glasses				- Steyr AUG A2 9mm
+8  - Kriminaloberkommissar 			   - KOK 	- Ford Taurus, Scoda Octavia 			- /							- Polizeigürtel							- Beanie-Mütze							- HK MP5, Custom Covert II *
+9  - Kriminalhauptkommissar 		   - KHK 	- Audi Q7, VW Touareg, Limousine Sport	- EC635						- Polizeiweste							- TRYK reverse cap Glasses				- F2000 T *, Glock 18
+10 - Kriminalhauptkommissar mit Zulage - KHKZ 	- Ford Mustang, Peugeot 508, SUV		- /							- Polizeiweste (schwer)					- Mütze (schwarz)						- P90, Steyr AUG A2
+			
+13 - Kriminalrat 					   - KR 	- Audi RS5, BMW M5, Audi RS6 			- /							- TAC V1 MARSHAL						- Barett (schwarz)						- AA12
+14 - Kriminaloberrat 				   - KOR 	- BMW M6, Audi RS4, Mercedes C63 		- /							- Patronengurt							- /										- HK G36
+
+
+KOR,KR: Leitung Kriminalpolizei x1,x1
+KHKZ,KHK,KOK,KK,KKA: Beamte im Kriminaldienst x0-3,x0-3,x0-3,x0-3,x0-3 = x3

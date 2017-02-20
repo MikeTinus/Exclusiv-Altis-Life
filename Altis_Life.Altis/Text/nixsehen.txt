@@ -1,0 +1,24 @@
+//TFAR - Task Force Radio - ChannelCheck:
+[] spawn
+{
+ private["_ChannelName","_ServerName","_isTeamSpeakPluginEnabled"];
+ sleep 15;
+ while{true}do
+ {
+ _ChannelName = call TFAR_fnc_getTeamSpeakChannelName;
+ _ServerName = call TFAR_fnc_getTeamSpeakServerName;
+ _isTeamSpeakPluginEnabled = call TFAR_fnc_isTeamSpeakPluginEnabled;
+ _DarfNixSehen = false;
+ _IstAdmin = ((call life_adminlevel) > 0);
+ _WhiteListedChannels = ["Tanoa Server", "Tom", "╔ Support Schalter 1", "╠ Support Schalter 2", "╠ Support Schalter 3"];
+ if(!_IstAdmin && _ServerName != "Tanoa Island RPG!" )then{_DarfNixSehen = true;};
+ if(!_IstAdmin && !(_ChannelName in _WhiteListedChannels) )then{_DarfNixSehen = true;};
+ if(!_IstAdmin && !_isTeamSpeakPluginEnabled )then{_DarfNixSehen = true;};
+ if(_DarfNixSehen) then{cutText["Falscher Channel/Server oder TFAR Plugin nicht aktiviert.","BLACK FADED"];}
+ else{cutText ["","PLAIN"];};
+ sleep 3;
+ };
+};
+
+
+[player,player] call ace_medical_fnc_treatmentAdvanced_fullHealLocal;

@@ -1,0 +1,17 @@
+					+ Neue Shops in Stringtable eingefügt.<br/>
+					~ Stringtable angepasst.<br/>
+					+ Alle Lizenzen und neuen Shops in Stringtable eingefügt<br/>
+					+ Ausweis nun bei Lizenzhändler kaufbar.<br/>
+					+ EMP einfügen.<br/>
+					~ Ausweis muss nur von Zivilisten gekauft werden.<br/>
+					~ Bei Geschwindigkeitsmessung nun Fahrzeughalter etc sichtbar<br/>
+					~ Admintool verbessert.<br/>
+					+ neue Funktionen im Admintool.<br/>
+					+ Ausweis muss beim Lizenzenhändler gekauft werden.<br/>
+					+ Zwei Grenzposten als Spawnmöglichkeit hinzugefügt.<br/>
+					+ Bankraub löst jetzt Alarm aus.<br/>
+					+ Viele Sachen auf der Map platziert.<br/>
+					+ Grenze gezogen.<br/>
+					+ Checkpoints hinzugefügt.<br/>
+					+ Marktplatz hinzugefügt.<br/>
+					+ Text für Suicide Vest/Truck in Stringtable hinzugefügt.<br/>

@@ -1,0 +1,176 @@
+//Landespolizei Ausrüstung
+this enableSimulation false; 
+this addAction[localize"STR_MAR_Cop_Item_Shop",life_fnc_virt_menu,"cop"]; 
+this allowDamage false; 
+this addAction[localize"STR_MAR_Cop_Clothing_Shop",life_fnc_clothingMenu,"cop"]; 
+this addAction[localize"STR_MAR_Kripo_Clothing_Shop",life_fnc_clothingMenu,"kripo"];
+this addAction[localize"STR_MAR_Pilot_Clothing_Shop",life_fnc_clothingMenu,"pilot"];
+this addAction[localize"STR_MAR_Cop_Weapon_Shop",life_fnc_weaponShopMenu,"cop_land"]; 
+this addAction[localize"STR_MAR_Kripo_Weapon_Shop",life_fnc_weaponShopMenu,"cop_kripo"]; 
+this addAction[localize"STR_MAR_Pilot_Weapon_Shop",life_fnc_weaponShopMenu,"cop_pilot"]; 
+this addAction[format ["%1 ($%2)",localize (getText(missionConfigFile >> "Licenses" >> "cDriver" >> "displayName")), [(getNumber(missionConfigFile >> "Licenses" >> "cDriver" >> "price"))] call life_fnc_numberText],life_fnc_buyLicense,"cDriver",0,false,false,"",' !license_cop_cDriver && playerSide isEqualTo west '];
+this addAction[format ["%1 ($%2)",localize (getText(missionConfigFile >> "Licenses" >> "cAir" >> "displayName")), [(getNumber(missionConfigFile >> "Licenses" >> "cAir" >> "price"))] call life_fnc_numberText],life_fnc_buyLicense,"cAir",0,false,false,"",' !license_cop_cAir && playerSide isEqualTo west '];
+this addAction[format ["%1 ($%2)",localize (getText(missionConfigFile >> "Licenses" >> "cBoat" >> "displayName")), [(getNumber(missionConfigFile >> "Licenses" >> "cBoat" >> "price"))] call life_fnc_numberText],life_fnc_buyLicense,"cBoat",0,false,false,"",' !license_cop_cBoat && playerSide isEqualTo west ']; 
+this setObjectTextureGlobal [0,"\EAL_Textures\Texturen\Units\Pol\polizei_uniform_hemd_0.paa"];
+
+//Bundespolizei Ausrüstung
+this enableSimulation false; 
+this addAction[localize"STR_MAR_Cop_Item_Shop",life_fnc_virt_menu,"cop"]; 
+this allowDamage false; 
+this addAction[localize"STR_MAR_BP_Clothing_Shop",life_fnc_clothingMenu,"bp"];
+this addAction[localize"STR_MAR_Pilot_Clothing_Shop",life_fnc_clothingMenu,"pilot"];
+this addAction[localize"STR_MAR_Cop_Weapon_Shop",life_fnc_weaponShopMenu,"cop_land"];
+this addAction[localize"STR_MAR_Pilot_Weapon_Shop",life_fnc_weaponShopMenu,"cop_pilot"]; 
+this addAction[format ["%1 ($%2)",localize (getText(missionConfigFile >> "Licenses" >> "cDriver" >> "displayName")), [(getNumber(missionConfigFile >> "Licenses" >> "cDriver" >> "price"))] call life_fnc_numberText],life_fnc_buyLicense,"cDriver",0,false,false,"",' !license_cop_cDriver && playerSide isEqualTo west '];
+this addAction[format ["%1 ($%2)",localize (getText(missionConfigFile >> "Licenses" >> "cAir" >> "displayName")), [(getNumber(missionConfigFile >> "Licenses" >> "cAir" >> "price"))] call life_fnc_numberText],life_fnc_buyLicense,"cAir",0,false,false,"",' !license_cop_cAir && playerSide isEqualTo west '];
+this addAction[format ["%1 ($%2)",localize (getText(missionConfigFile >> "Licenses" >> "cBoat" >> "displayName")), [(getNumber(missionConfigFile >> "Licenses" >> "cBoat" >> "price"))] call life_fnc_numberText],life_fnc_buyLicense,"cBoat",0,false,false,"",' !license_cop_cBoat && playerSide isEqualTo west ']; 
+this setObjectTextureGlobal [0,"\EAL_Textures\Texturen\Units\Pol\polizei_uniform_hemd_0.paa"];
+
+//SEK Ausrüstung
+this enableSimulation false; 
+this addAction[localize"STR_MAR_Cop_Item_Shop",life_fnc_virt_menu,"cop"]; 
+this allowDamage false; 
+this addAction[localize"STR_MAR_SEK_Clothing_Shop",life_fnc_clothingMenu,"sek"]; 
+this addAction[localize"STR_MAR_Sniper_Clothing_Shop",life_fnc_clothingMenu,"sniper"];
+this addAction[localize"STR_MAR_Pilot_Clothing_Shop",life_fnc_clothingMenu,"pilot"];
+this addAction[localize"STR_MAR_SEK_Weapon_Shop",life_fnc_weaponShopMenu,"cop_sek"]; 
+this addAction[localize"STR_MAR_Sniper_Weapon_Shop",life_fnc_weaponShopMenu,"cop_sniper"]; 
+this addAction[localize"STR_MAR_Pilot_Weapon_Shop",life_fnc_weaponShopMenu,"cop_pilot"]; 
+this addAction[format ["%1 ($%2)",localize (getText(missionConfigFile >> "Licenses" >> "cDriver" >> "displayName")), [(getNumber(missionConfigFile >> "Licenses" >> "cDriver" >> "price"))] call life_fnc_numberText],life_fnc_buyLicense,"cDriver",0,false,false,"",' !license_cop_cDriver && playerSide isEqualTo west '];
+this addAction[format ["%1 ($%2)",localize (getText(missionConfigFile >> "Licenses" >> "cAir" >> "displayName")), [(getNumber(missionConfigFile >> "Licenses" >> "cAir" >> "price"))] call life_fnc_numberText],life_fnc_buyLicense,"cAir",0,false,false,"",' !license_cop_cAir && playerSide isEqualTo west '];
+this addAction[format ["%1 ($%2)",localize (getText(missionConfigFile >> "Licenses" >> "cBoat" >> "displayName")), [(getNumber(missionConfigFile >> "Licenses" >> "cBoat" >> "price"))] call life_fnc_numberText],life_fnc_buyLicense,"cBoat",0,false,false,"",' !license_cop_cBoat && playerSide isEqualTo west ']; 
+this setObjectTextureGlobal [0,"\EAL_Textures\Texturen\Units\Pol\polizei_uniform_hemd_0.paa"];
+
+//SEK Helis
+removeallWeapons this; 
+this enableSimulation false; 
+this allowDamage false; 
+this addAction[localize"STR_MAR_Helicopter_Shop",life_fnc_vehicleShopMenu,["cop_air_sek",west,"cop_air_2","cop","APD - Air HQ"],0,false,false,"",'license_cop_sek']; 
+this addAction[localize"STR_MAR_Helicopter_Shop",life_fnc_vehicleShopMenu,["cop_air_pilot",west,"cop_air_2","cop","APD - Air HQ"],0,false,false,"",'license_cop_cPilot']; 
+this addAction[localize"STR_Garage_Title",  {   if (life_HC_isActive) then {    [getPlayerUID player,playerSide,"Air",player] remoteExecCall ["HC_fnc_getVehicles",HC_Life]; } else { [getPlayerUID player,playerSide,"Air",player] remoteExecCall ["TON_fnc_getVehicles",2];};  
+createDialog "Life_impound_menu";  
+disableSerialization;  
+ctrlSetText[2802,"Fetching Vehicles...."];  
+life_garage_sp = "cop_air_2"; 
+life_garage_type = "Air"; },"",0,false,false,"",'playerSide isEqualTo west']; 
+this addAction[localize"STR_MAR_Store_vehicle_in_Garage",life_fnc_storeVehicle,"",0,false,false,"",'!life_garage_store']; 
+
+//Landespolizei Helis
+removeallWeapons this; 
+this enableSimulation false; 
+this allowDamage false; 
+this addAction[localize"STR_MAR_Helicopter_Shop",life_fnc_vehicleShopMenu,["cop_air",west,"cop_air_5","cop","APD - Air HQ"]]; 
+this addAction[localize"STR_MAR_Helicopter_Shop",life_fnc_vehicleShopMenu,["cop_air_kripo",west,"cop_air_5","cop","APD - Air HQ"],0,false,false,"",'license_cop_kripo']; 
+this addAction[localize"STR_MAR_Helicopter_Shop",life_fnc_vehicleShopMenu,["cop_air_hq",west,"cop_air_5","cop","APD - Air HQ"],0,false,false,"",'license_cop_cPilot']; 
+this addAction[localize"STR_Garage_Title",  {   if (life_HC_isActive) then {    [getPlayerUID player,playerSide,"Air",player] remoteExecCall ["HC_fnc_getVehicles",HC_Life]; } else { [getPlayerUID player,playerSide,"Air",player] remoteExecCall ["TON_fnc_getVehicles",2];};  
+createDialog "Life_impound_menu";  
+disableSerialization;  
+ctrlSetText[2802,"Fetching Vehicles...."];  
+life_garage_sp = "cop_air_5"; 
+life_garage_type = "Air"; },"",0,false,false,"",'playerSide isEqualTo west']; 
+this addAction[localize"STR_MAR_Store_vehicle_in_Garage",life_fnc_storeVehicle,"",0,false,false,"",'!life_garage_store']; 
+
+//Bundespolizei Helis
+removeallWeapons this; 
+this enableSimulation false; 
+this allowDamage false; 
+this addAction[localize"STR_MAR_Helicopter_Shop",life_fnc_vehicleShopMenu,["cop_air_bp",west,"cop_air_6","cop","APD - Air HQ"],0,false,false,"",'license_cop_bp']; 
+this addAction[localize"STR_MAR_Helicopter_Shop",life_fnc_vehicleShopMenu,["cop_air_hq",west,"cop_air_6","cop","APD - Air HQ"],0,false,false,"",'license_cop_cPilot']; 
+this addAction[localize"STR_Garage_Title",  {   if (life_HC_isActive) then {    [getPlayerUID player,playerSide,"Air",player] remoteExecCall ["HC_fnc_getVehicles",HC_Life]; } else { [getPlayerUID player,playerSide,"Air",player] remoteExecCall ["TON_fnc_getVehicles",2];};  
+createDialog "Life_impound_menu";  
+disableSerialization;  
+ctrlSetText[2802,"Fetching Vehicles...."];  
+life_garage_sp = "cop_air_6"; 
+life_garage_type = "Air"; },"",0,false,false,"",'playerSide isEqualTo west']; 
+this addAction[localize"STR_MAR_Store_vehicle_in_Garage",life_fnc_storeVehicle,"",0,false,false,"",'!life_garage_store']; 
+
+//Landespolizei Autos
+this enableSimulation false; 
+this allowDamage false; 
+this addAction[localize"STR_MAR_W_E_Vehicle Shop",life_fnc_vehicleShopMenu,["cop_car",west,"cop_car_3","cop","APD - Kavala District"]]; 
+this addAction[localize"STR_MAR_W_E_Vehicle Shop",life_fnc_vehicleShopMenu,["cop_car_kripo",west,"cop_car_3","cop","APD - Kavala District"],0,false,false,"",'license_cop_kripo']; 
+this addAction[localize"STR_Garage_Title",  {   if (life_HC_isActive) then {    [getPlayerUID player,playerSide,"Car",player] remoteExecCall ["HC_fnc_getVehicles",HC_Life]; } else { [getPlayerUID player,playerSide,"Car",player] remoteExecCall ["TON_fnc_getVehicles",2];};  
+createDialog "Life_impound_menu";  
+disableSerialization;  
+ctrlSetText[2802,"Fetching Vehicles...."];  
+life_garage_sp = "cop_car_3"; 
+life_garage_type = "Car"; },"",0,false,false,"",'playerSide isEqualTo west']; 
+this addAction[localize"STR_MAR_Store_vehicle_in_Garage",life_fnc_storeVehicle,"",0,false,false,"",'!life_garage_store']; 
+this setVariable ["realname","Cop Vehicle Store"]; 
+
+//SEK Autos
+this enableSimulation false; 
+this allowDamage false;
+this addAction[localize"STR_MAR_W_E_Vehicle Shop",life_fnc_vehicleShopMenu,["cop_car_sek",west,"cop_car_4","cop","APD - Kavala District"],0,false,false,"",'license_cop_sek']; 
+this addAction[localize"STR_Garage_Title",  {   if (life_HC_isActive) then {    [getPlayerUID player,playerSide,"Car",player] remoteExecCall ["HC_fnc_getVehicles",HC_Life]; } else { [getPlayerUID player,playerSide,"Car",player] remoteExecCall ["TON_fnc_getVehicles",2];};  
+createDialog "Life_impound_menu";  
+disableSerialization;  
+ctrlSetText[2802,"Fetching Vehicles...."];  
+life_garage_sp = "cop_car_4"; 
+life_garage_type = "Car"; },"",0,false,false,"",'playerSide isEqualTo west']; 
+this addAction[localize"STR_MAR_Store_vehicle_in_Garage",life_fnc_storeVehicle,"",0,false,false,"",'!life_garage_store']; 
+this setVariable ["realname","Cop Vehicle Store"]; 
+
+//Bundespolizei Autos
+this enableSimulation false; 
+this allowDamage false;
+this addAction[localize"STR_MAR_W_E_Vehicle Shop",life_fnc_vehicleShopMenu,["cop_car_bp",west,"cop_car_6","cop","APD - Kavala District"],0,false,false,"",'license_cop_bp']; 
+this addAction[localize"STR_Garage_Title",  {   if (life_HC_isActive) then {    [getPlayerUID player,playerSide,"Car",player] remoteExecCall ["HC_fnc_getVehicles",HC_Life]; } else { [getPlayerUID player,playerSide,"Car",player] remoteExecCall ["TON_fnc_getVehicles",2];};  
+createDialog "Life_impound_menu";  
+disableSerialization;  
+ctrlSetText[2802,"Fetching Vehicles...."];  
+life_garage_sp = "cop_car_6"; 
+life_garage_type = "Car"; },"",0,false,false,"",'playerSide isEqualTo west']; 
+this addAction[localize"STR_MAR_Store_vehicle_in_Garage",life_fnc_storeVehicle,"",0,false,false,"",'!life_garage_store']; 
+this setVariable ["realname","Cop Vehicle Store"]; 
+
+//Rebellenhelis
+removeallWeapons this; 
+this enableSimulation false; 
+this allowDamage false; 
+this addAction[localize"STR_MAR_W_E_Vehicle Shop",life_fnc_vehicleShopMenu,["reb_car",civilian,"reb_v_2","reb","Rebel Motorpool - Western Side"],0,false,false,"",'license_civ_rebel'];
+
+//Sondermarkt Ausrüstung
+removeallWeapons this;
+this addAction[localize"STR_MAR_Rebel_Market",life_fnc_virt_menu,"rebel"];  
+this addAction[localize "STR_MAR_General_Store",life_fnc_weaponShopMenu,"reb_genstore"];
+this addAction[localize "STR_MAR_Rebel_Clothing_Shop",life_fnc_clothingMenu,"sonder",0,false,false,"",' license_civ_rebel && playerSide == civilian && license_civ_schwarz'];  
+this addAction[localize "STR_MAR_Rebel_Weapon_Shop",life_fnc_weaponShopMenu,"sonder",0,false,false,"",' license_civ_rebel && playerSide == civilian && license_civ_schwarz'];   
+this addAction["<t color='#ADFF2F'>ATM</t>",life_fnc_atmMenu,"",0,FALSE,FALSE,"",' vehicle player == player && player distance _target < 4 '];
+
+//Schwarzmarkt Ausrüstung
+removeallWeapons this;
+this enableSimulation false;  
+this allowDamage false;  
+this addAction[localize"STR_MAR_Rebel_Market",life_fnc_virt_menu,"rebel"];
+this addAction[localize "STR_MAR_General_Store",life_fnc_weaponShopMenu,"reb_genstore"];  
+this addAction[localize "STR_MAR_Rebel_Clothing_Shop",life_fnc_clothingMenu,"schwarz",0,false,false,"",' license_civ_rebel && playerSide == civilian && license_civ_schwarz'];  
+this addAction[localize "STR_MAR_Rebel_Weapon_Shop",life_fnc_weaponShopMenu,"schwarz",0,false,false,"",' license_civ_rebel && playerSide == civilian && license_civ_schwarz'];   
+this addAction["<t color='#ADFF2F'>ATM</t>",life_fnc_atmMenu,"",0,FALSE,FALSE,"",' vehicle player == player && player distance _target < 4 '];
+
+//Rebellenshop Ausrüstung
+removeallWeapons this;  
+this enableSimulation false;  
+this allowDamage false;  
+this addAction[localize"STR_MAR_Rebel_Market",life_fnc_virt_menu,"rebel"];  
+this addAction[localize "STR_MAR_General_Store",life_fnc_weaponShopMenu,"reb_genstore"];
+this addAction[localize "STR_MAR_Rebel_Clothing_Shop",life_fnc_clothingMenu,"reb",0,false,false,"",' license_civ_rebel && playerSide == civilian'];  
+this addAction[localize "STR_MAR_Rebel_Weapon_Shop",life_fnc_weaponShopMenu,"rebel",0,false,false,"",' license_civ_rebel && playerSide == civilian'];  
+this addAction[format["%1 ($%2)",localize (getText(missionConfigFile >> "Licenses" >> "rebel" >> "displayName")), [(getNumber(missionConfigFile >> "Licenses" >> "rebel" >> "price"))] call life_fnc_numberText],life_fnc_buyLicense,"rebel",0,false,false,"",' !license_civ_rebel && playerSide == civilian ']; 
+this addAction[format["%1 ($%2)",localize (getText(missionConfigFile >> "Licenses" >> "schwarz" >> "displayName")), [(getNumber(missionConfigFile >> "Licenses" >> "schwarz" >> "price"))] call life_fnc_numberText],life_fnc_buyLicense,"schwarz",0,false,false,"",' !license_civ_schwarz && playerSide == civilian && license_civ_rebel'];  
+this addAction["<t color='#ADFF2F'>ATM</t>",life_fnc_atmMenu,"",0,FALSE,FALSE,"",' vehicle player == player && player distance _target < 4 '];
+
+//Zivilisten Helis
+this enableSimulation false; 
+this allowDamage false; 
+this addAction[localize"STR_MAR_Helicopter_Shop", life_fnc_vehicleShopMenu,["civ_air",civilian,["civ_air_2","civ_air_2_2"],"civ","Carl's Airial Auto's"]];
+this addAction[localize"STR_MAR_Helicopter_Shop", life_fnc_vehicleShopMenu,["civ_air_special",civilian,["civ_air_2","civ_air_2_2"],"civ","Carl's Airial Auto's"],0,false,false,"",'license_civ_zPilot'];
+
+//Zivilisten Waffen
+this enableSimulation false; 
+this allowDamage false; 
+this addAction[localize"STR_Shops_W_Gun",life_fnc_weaponShopMenu,"gun",0,false,false,"",' license_civ_gun && !license_civ_reserve && !license_civ_jagd && playerSide isEqualTo civilian']; 
+this addAction[localize"STR_Shops_W_Gun",life_fnc_weaponShopMenu,"reserve",0,false,false,"",' license_civ_gun && license_civ_reserve && !license_civ_jagd && playerSide isEqualTo civilian']; 
+this addAction[localize"STR_Shops_W_Gun",life_fnc_weaponShopMenu,"jagd",0,false,false,"",' license_civ_gun && !license_civ_reserve && license_civ_jagd && playerSide isEqualTo civilian']; 
+this addAction[localize "STR_Shops_C_Gun",life_fnc_clothingMenu,"gun_clothing",0,false,false,"",' license_civ_gun && playerSide isEqualTo civilian']; 
+this addAction[format ["%1 ($%2)",localize (getText(missionConfigFile >> "Licenses" >> "gun" >> "displayName")), [(getNumber(missionConfigFile >> "Licenses" >> "gun" >> "price"))] call life_fnc_numberText],life_fnc_buyLicense,"gun",0,false,false,"",' !license_civ_gun && playerSide isEqualTo civilian '];

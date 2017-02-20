@@ -1,0 +1,601 @@
+Kleidung:
+rds_uniform_assistant; (Ladeverkäufer [20. Jhr.])
+rds_uniform_citizen1; (lange schwarze Hose, Wollpulli und graue Lederjacke)
+rds_uniform_citizen2; (lange graue Hose, Wollpulli und braune Lederjacke)
+rds_uniform_citizen3; (lange violette Hose, Wollpulli und orange Lederjacke)
+rds_uniform_citizen4; (lange blaue Hose, Wollpulli und schwarze Lederjacke)
+rds_uniform_doctor; (Doktorkleidung)
+rds_uniform_Functionary1; (schwarzer Anzug mit rotem Slips)
+rds_uniform_Functionary2; (roter Anzug mit blauem Slips)
+eaglkes_wwi_fr_pilot_cloth; (brauner Ganzkörperanzug mit weißem Schall)
+eaglkes_wwi_ger_pilot_cloth; (grauer Ganzkörperanzug mit weißerm Schall)
+rds_uniform_priest; (Priesterkleidung)
+rds_uniform_Profiteer1; (Joggingshose mit grauer Strickjacke)
+rds_uniform_Profiteer2; (Joggingshose mit blauer Strickjacke)
+rds_uniform_Profiteer3; (Joggingshose mit brauner Strickjacke)
+rds_uniform_Profiteer4; (Joggingshose mit orangkarierter Strickjacke)
+sab_SikorskyS38_Man_Shirt; (graues T-Shirt mit beiger Hose)
+rds_uniform_schoolteacher; (langer blauer Mantel mit schwarzer Hose)
+rds_uniform_Villager1; (Holzfäller Hemd mit blauer Hose)
+rds_uniform_Villager2; (gelbes Holzfäller Hemd mit blauer Hose)
+rds_uniform_Villager3; (grünes Holzfäller Hemd mit brauner Hose)
+rds_uniform_Villager4; (weißes Holzfäller Hemd mit beiger Hose)
+rds_uniform_Woodlander1; (osteuropäischer Stile)
+rds_uniform_Woodlander2; (")
+rds_uniform_Woodlander3; (")
+rds_uniform_Woodlander4; (")
+rds_uniform_Worker1; (Leiharbeiter Kleidung)
+rds_uniform_Worker2; (")
+rds_uniform_Worker3; (")
+rds_uniform_Worker4; (")
+TRYK_B_TRYK_3C_T    T-Shirt hose mit wüstentan
+TRYK_U_B_ARO1_BLK_CombatUniform     Hose mit wüstentan / schwarze jacke
+TRYK_U_B_ARO1_BLK_R_CombatUniform   Hose mit wüstentan / schwarze jacke kurzen armen
+TRYK_U_B_ARO1_CBR_CombatUniform     hose mit wüstentan / braune jacke
+TRYK_U_B_ARO1_CBR_R_CombatUniform   hose mit wüstentan / braune jacke kurze armen
+TRYK_U_B_ARO1_GR_CombatUniform      hose mit wüstentan / grüne jacke
+TRYK_U_B_ARO1_GR_R_CombatUniform    hose mit wüstentan / grüne jacke kurze arme
+TRYK_U_B_ARO1_GRY_CombatUniform     hose mit wüstentan / graue jacke
+TRYK_U_B_ARO1_GRY_R_CombatUniform   hose mit wüstentan / graue jacke kurze arme
+TRYK_DMARPAT_T			    t-shirt braun / hose wüstentan
+TRYK_C_AOR2_T			    t-shirt schwarz / mit hose grün tan
+TRYK_U_B_AOR2_BLK_CombatUniform     hose mit grüntan / schwarze jacke
+TRYK_U_B_AOR2_BLK_R_CombatUniform   hose mit grüntan / schwarze jacke / kurz arme
+TRYK_U_B_AOR2_GRY_CombatUniform     hose mit grüntan / graue jacke
+TRYK_U_B_AOR2_GRY_R_CombatUniform   hose mit grüntan / graue jacke / kurze arme
+TRYK_U_B_AOR2_OD_CombatUniform      hose mit grüntan / grüne jacke
+TRYK_U_B_AOR2_OD_R_CombatUniform    hose mit grüntan / grüne jacke / kurze arme
+TRYK_U_B_PCUHsW3nh 					hose mit schwarz / schwarze jacke
+TRYK_U_B_PCUHsW3					hose mit schwarz / schwarz jacke / kaputze
+TRYK_U_B_BLKBLK_CombatUniform		hose mit schwarz / schwarz t-shirt / schwarze handschuhe
+TRYK_U_B_BLKBLK_R_CombatUniform		hose mit schwarz / schwarz t-shirt / kurze arme / schwarze handschuhe
+TRYK_U_B_BLKOCP_CombatUniform		hose mit mtp / schwarz t-shirt / schwarze handschuhe
+TRYK_U_B_BLKOCP_R_CombatUniformTshirt hose mit mtp / schwarz t-shirt / kurz handschuhe / schwarze handschuhe
+TRYK_U_B_BLOD_T						hose mit grün / t-shirt schwarz / schwarz handschuhe
+TRYK_U_B_BLKTAN_CombatUniform		hose mit braun / t-shirt schwarz / schwarz handschuhe
+TRYK_U_B_BLKTANR_CombatUniformTshirt hose mit braun / t-shirt schwarz / kurz arme
+TRYK_U_B_BLTAN_T					hose braun / schwarz t-shirt / braun handschuhe protektoren
+TRYK_U_B_C01_Tsirt					hose grünbrauntan / t-shirt schwarz / handschuhe schwarz
+TRYK_U_B_C02_Tsirt					jeans blau / t-shirt schwarz
+TRYK_U_B_BLK3CD						hose wüstentan / schwarz jacke / braun handschuhe protektoren
+TRYK_U_B_BLK3CD_Tshirt				hose wüstentan / schwarz jacke / braun handschuhe protektoren / kurze arme
+TRYK_U_B_BLKTAN_Tshirt				hose braun / schwarz jacke / kurze arme / braun handschuhe protektoren
+TRYK_U_B_BLKTAN						hose braun / schwarz jacke / braun handschuhe protektoren
+TRYK_U_B_BLK						hose schwarz / schwarze jacke / schwarz handschuhe protektoren
+TRYK_U_B_BLK_Tshirt					hose schwarz / schwarz jacke / kurze arme / handschuhe schwarz protektoren
+TRYK_U_B_BLK_OD_Tshirt				hose grün / schwarz jacke / braun handschuhe protektoren / kurz arme
+TRYK_U_B_BLK_OD						hose grün / schwarz jacke 7 handschuhe braun protektoren
+TRYK_U_B_OD_BLK_2					hose schwarz / graue jacke / kurz arme / handschuhe weiß protektoren
+TRYK_U_B_OD_BLK						hose schwarz / graue jacke / handschuhe weiß protektoren
+TRYK_U_B_ODTAN_Tshirt				hose braun / graue jacke / kurz arme / handschuhe weiß protektoren
+TRYK_U_B_ODTAN						hose braun / graue jacke / handschuhe weiß protektoren
+TRYK_U_B_Sage_Tshirt				hose dreck / t-shirt dreck / handschuhe schwarz protektoren
+TRYK_U_B_BLK_TAN_1					hose schwarz / braun jacke / handschuhe weiß protektoren
+TRYK_U_B_BLK_TAN_2					hose schwarz / jacke braun / kurz arme / handschuhe weiß protektoren
+TRYK_U_B_fleece						hose mtp knieschoner / graue jacke kaputze / braun handschuhe protektoren
+TRYK_HRP_khk						pilotenoverrall braun
+TRYK_OVERALL_SAGE_BLKboots_nk_blk2	grün overrall / handschuhe schwarz
+TRYK_OVERALL_nok_flesh				braun overrall
+TRYK_OVERALL_SAGE_BLKboots_nk		grün overrall
+TRYK_OVERALL_SAGE_BLKboots_nk_blk	grün overrall / schwarz handschuhe
+TRYK_OVERALL_flesh					braun overrall / knieschoner
+TRYK_OVERALL_SAGE					grün overrall / knieschoner
+TRYK_OVERALL_SAGE_BLKboots			grün overrall / knieschoner /schwarz schuhe
+TRYK_B_TRYK_MTP_T					grün t-shirt / mtp hose / schwarz handschuhe protektoren
+TRYK_U_B_MTP_BLK_CombatUniform		mtp hose / schwarz jacke / schwarz handschuhe protektoren
+TRYK_U_B_MTP_BLK_R_CombatUniform	mtp hose / schwarz jacke / kurz arme / braun handschuhe protektoren
+TRYK_U_B_OD_OD_CombatUniform		grün hose / grün t-shirt / handschuhe schwarz
+TRYK_U_B_OD_OD_R_CombatUniform		grün hose / grün t-shirt / kurz arme / schwarz handschuhe
+TRYK_U_Bts_PCUs						mtp hose / knieschoner / schwarz jacke / braun handschuhe protektoren / kaputze
+TRYK_U_Bts_PCUGs					mtp hose / knieschoner / graue jacke / braun handschuhe protektoren / kaputze
+TRYK_U_Bts_GRYGRY_PCUs				graue hose / graue jacke / braun handschuhe protektoren / kaputze
+TRYK_U_Bts_Wood_PCUs				woodland hose / graue jacke / kaputze / braun handschuhe protektoren
+TRYK_U_Bts_PCUODs					hose mtp / knieschoner / grüne jacke / braun handschuhe protektoren / kaputze
+TRYK_U_B_PCUHs						hose mtp / knieschoner / schwarz jacke / aufgestzte kaputze /schwarz handschuhe
+TRYK_U_B_PCUGHs						hose mtp / knieschoner / graue jacke / aufgestzte kaputze / schwarz handschuhe
+TRYK_U_B_PCUODHs					hose mtp / knieschoner / grün jacke / aufgestzte kaputze / schwarz handschuhe
+TRYK_U_B_PCUGs_BLK_R				graue jeans / graue jacke / kurze arme / kaputze / schwarz handschuhe
+TRYK_U_B_PCUGs_gry_R				graue jeans / graue jacke / kurz arme / kaputze / schwarz handschuhe
+TRYK_U_B_PCUGs_OD_R					graue jeans dreck / grün jacke / kurze arme / kaputze / schwarz handschuhe
+TRYK_U_B_PCUs_R						hose mtp / knieschoner / schwarz jacke / kurz arme / schwarz handschuhe / kaputze
+TRYK_U_B_PCUs						hose mtp / knieschoner / schwarz jacke / kaputze / schwarz handschuhe 
+TRYK_U_B_PCUGs_BLK					hose jeans blau dreck / schwarz jacke / schwarz handschuhe / kaputze
+TRYK_U_B_PCUGs						hose mtp / knieschoner / graue jacke / kaputze / schwarz handschuhe 
+TRYK_U_B_PCUGs_gry					hose jeans dreck / jacke graue / kaputze / schwarz handschuhe
+TRYK_U_B_GRY_PCUs_R					hose graue / knieschoner / holster / jacke graue / kurz arme / schwarz handschuhe / kaputze
+TRYK_U_B_GRY_PCUs					hose graue / knieschoner 7 holster / jacke graue / kaputze / schwarz handschuhe /
+TRYK_U_B_Wood_PCUs_R				hose woodland / knieschoner / holster / jacke graue / kurz arme / handschuhe schwarz / kaputze
+TRYK_U_B_Wood_PCUs					hose woodland / knieschoner / holster / jacke graue / kaputze / handschuhe schwarz
+TRYK_U_B_PCUODs						hose mtp / grün jacke / kaputze / handschuhe schwarz / knieschoner / holster
+TRYK_U_B_PCUGs_OD					jeans blau dreck / grün jacke / kaputze / schwarz handschuhe / 
+TRYK_U_B_AOR1_Rollup_CombatUniform	hose wüstentan / hemd blau / kurz arme / handschuhe braun protektoren
+TRYK_U_B_AOR2_Rollup_CombatUniform	hose grünbrauntan / hemd blau / kurz arme / handschuhe schwarz  protektoren
+TRYK_U_B_BLK_OD_Rollup_CombatUniform	hose grün / hemd blau / kurz arme / handschuhe braun protektoren
+TRYK_U_B_BLK_tan_Rollup_CombatUniform	hose braun / hemd blau / kurz arme / handschuhe schwarz protektoren 
+TRYK_U_B_wh_blk_Rollup_CombatUniform	hose schwarz / hemd weiß / kurz arme / handschuhe schwarz
+TRYK_U_B_wh_OD_Rollup_CombatUniform		hose grün / hemd weiß / kurz arme / handschuhe schwarz 
+TRYK_U_B_wh_tan_Rollup_CombatUniform	hose braun / hemd weiß / kurz / arme /handschuhe schwarz protektoren
+TRYK_U_B_Sage_T							hose dreck / t-shirt grün / kurz arme / handschuhe schwarz protektoren
+TRYK_shirts_DENIM_BK				jeans blau dreck / hemd schwarz / kurz arme / handschuhe schwarz
+TRYK_shirts_DENIM_BL				jeans blau dreck / hemd blau kariert / kurz arme / handschuhe schwarz 
+TRYK_shirts_DENIM_BWH				jeans blau dreck / hemd hell blau kariert / kurz arme / handschuhe schwarz
+TRYK_shirts_DENIM_od				jeans blau / hemd gelb grün dreck / kurz arme / handschuhe schwarz
+TRYK_shirts_DENIM_R					jeans blau / hemd rot kariert / kurz arme / handschuhe schwarz
+TRYK_shirts_DENIM_RED2				jeans blau / hemd rot schwarz kariert / kurz arme / handschuhe schwarz
+TRYK_shirts_DENIM_WH				jeans blau / hemd weiß / kurz arme / schwarz handschuhe 
+TRYK_shirts_DENIM_WHB				jeans blau / hemd weiß blau dreck kariert / kurz arme / schwarz handschuhe 
+TRYK_shirts_DENIM_ylb				jeans blau / hemd gelb kariert / kurz arme / schwarz handschuhe
+TRYK_shirts_DENIM_od_Sleeve			jeans blau / hemd grün dreck / handschuhe schwarz
+TRYK_shirts_DENIM_ylb_Sleeve		jeans blau / hemd gelb dreck / schwarz handschuhe 
+TRYK_shirts_DENIM_BK_Sleeve			jeans blau / hemd schwarz / handschuhe schwarz
+TRYK_shirts_DENIM_BL_Sleeve			jeans blau / hemd blau kariert / handschuhe schwarz
+TRYK_shirts_DENIM_BWH_Sleeve		jeans blau / hemd hell blau  kariert / handschuhe schwarz
+TRYK_shirts_DENIM_R_Sleeve			jeans blau / hemd rot kariert / handschuhe schwarz /
+TRYK_shirts_DENIM_RED2_Sleeve		jeans blau / hemd rot schwarz kariert / handschuhe schwarz 
+TRYK_shirts_DENIM_WH_Sleeve			jeans blau / hemd weiß / handschuhe schwarz
+TRYK_shirts_DENIM_WHB_Sleeve		jeans blau / hemd blau weiß kariert dreck / handschuhe schwarz
+TRYK_shirts_PAD_BK					hose wüstentan / hemd schwarz / kurz arme / handschuhe schwarz / knieschoner
+TRYK_shirts_BLK_PAD_BK				hose graue / knieschoner / hemd schwarz / kurz arme / handschuhe schwarz
+TRYK_shirts_OD_PAD_BK				hose grün / knieschoner / hemd schwarz / kurz arme / handschuhe schwarz
+TRYK_shirts_TAN_PAD_BK				hose braun / knieschoner / hemd schwarz / kurz arme / handschuhe schwarz 
+TRYK_shirts_PAD_BL					hose wüstentan / hemd blau / kurz arme / handschuhe schwarz
+TRYK_shirts_BLK_PAD_BL				hose schwarz / hemd blau kariert / kurz arme / handschuhe schwarz
+TRYK_shirts_OD_PAD_BL				hose grün / hemd blau kariert / kurz arme / handschuhe / knieschoner
+TRYK_shirts_TAN_PAD_BL				hose braun / hemd blau kariert / kurze arme /handschuhe schwarz
+TRYK_shirts_PAD_BLW					hose braun / knieschoner / hemd blau weiß kariert / kurz arme / handschuhe schwarz
+TRYK_shirts_BLK_PAD_BLW				hose schwarz / knieschoner / hemd blau weiß kariert dreck / kurz arme / handschuhe schwarz
+TRYK_shirts_TAN_PAD_BLW				hose braun / knieschoner / hemd blau weiß kariert dreck / kurz arme / handschuhe schwarz 
+TRYK_shirts_PAD_BLU3				hose wüstentan / knieschoner / hemd blau hell kariert / kurz arme / handschuhe schwarz
+TRYK_shirts_BLK_PAD_BLU3			hose schwarz / knieschoner / hemd blau kariert / kurz arme / handschuhe schwarz
+TRYK_shirts_OD_PAD_BLU3				hose grün / knieschoner / hemd hell blau kariert / kurz arme / handschuhe schwarz
+TRYK_shirts_TAN_PAD_BLU3			hose braun / knieschoner / hemd hell blau kariert / kurz arme / handschuhe schwarz
+TRYK_shirts_PAD						hose wüstentan / knieschoner / hemd rot kariert / kurz arme / handschuhe schwarz
+TRYK_shirts_BLK_PAD					hose schwarz / knieschoner / hemd rot kariert / kurz arme / handschuhe schwarz
+TRYK_shirts_OD_PAD					hose grün / knieschoner / hemd rot kariert / kurz arme / handschuhe schwarz
+TRYK_shirts_TAN_PAD					hose braun / knieschoner / hemd rot kariert / kurz arme / handschuhe schwarz
+TRYK_shirts_PAD_RED2				hose wüstentan / hemd rot schwarz kariert / kurz arme / handschuhe schwarz
+TRYK_shirts_BLK_PAD_RED2			hose schwarz / knieschoner / hemd rot schwarz kariert / kurz arme / handschuhe schwarz
+TRYK_shirts_OD_PAD_RED2				hose grün / hemd rot schwarz kariert / kurz arme / handschuhe schwarz / knieschoner
+TRYK_shirts_TAN_PAD_RED2			hose braun / knieschoner / hemd rot schwarz kariert / kurz arme / handschuhe schwarz
+TRYK_shirts_PAD_YEL					hose wüstentan / knieschoner / hemd gelb kariert dreck / kurz arme / handschuhe schwarz 
+TRYK_shirts_BLK_PAD_YEL				hose schwarz /  knieschoner / hemd gelb kariert / kurz arme / handschuhe schwarz 
+TRYK_shirts_OD_PAD_YEL				hose grün / knieschoner / hemd gelb kariert / kurz arme / handschuhe schwarz
+TRYK_shirts_TAN_PAD_YEL				hose braun / knieschoner / hemd gelb kariert / kurz arme / handschuhe schwarz 
+TRYK_U_B_Snow_CombatUniform			allles schnee tan (t-shirt)
+TRYK_U_B_Snowt						alles schnee tan jacke
+TRYK_T_PAD							hose wüstentan / t-shirt braun / kurz arme / knieschoner / handschuhe schwarz beschriftet
+TRYK_U_pad_hood_CSATBlk				hose csat / knieschoner / jacke schwarz / kaputze / handschuhe schwarz 
+TRYK_U_pad_hood_Blod				hose grün / knieschoner / jacke schwarz / kaputze / handschuhe schwarz
+TRYK_U_pad_hood_Cl_blk				hose braun / knieschoner / jacke schwarz / kaputze / handschuhe schwarz
+TRYK_U_pad_hood_BKT2				hose grünbrauntan / knieschoner /jacke schwarz / kaputze / handschuhe schwarz
+TRYK_U_nohoodPcu_gry				hose ucp / knieschoner / jacke grau / kaputze / handschuhe schwarz
+TRYK_U_pad_hood_odBK				hose schwarz / knieschoner / jacke grün / kaputze / handschuhe schwarz 
+TRYK_U_pad_hood_tan					hose wüstentan / knieschoner / jacke grün / kaputze / handschuhe schwarz
+TRYK_U_pad_hood_Cl					hose braun / knieschoner / jacke grün / kaputze / handschuhe schwarz
+TRYK_hoodie_3c						hose wüstentan / knieschoner / jacke schwarz / kaputze / handschuhe schwarz
+TRYK_hoodie_FR						hose grünbrauntan / knieschoner / jacke schwarze / kaputze / handschuhe schwarz
+TRYK_hoodie_Blk						hose mtp / knieschoner / holster / jacke schwarz / kaputze / handschuhe schwarz
+TRYK_hoodie_Wood					hose woodland / knieschoner / holster / jacke schwarz / kaputze / handschuhe schwarz 
+TRYK_U_hood_mc						hose wüstentan / knieschoner / jacke mtp / kaputze / handschuhe schwarz
+TRYK_U_hood_nc						hose wüstentan / knieschoner / jacke grün / kaputze / handschuhe schwarz
+TRYK_T_BLK_PAD						hose schwarz / knieschoner / t-shirt grau / kurz arme / handschuhe schwarz beschriftet
+TRYK_T_CSAT_PAD						hose csat / knieschoner / t-shirt schwarz / kurz arme / handschuhe schwarz beschriftet
+TRYK_T_OD_PAD						hose grün / knieschoner / t-shirt schwarz / kurz arme / handschuhe schwarz beschriftet 
+TRYK_T_TAN_PAD						hose braun / knieschoner / t-shirt weiß / kurz arme / handschuhe schwarz beschriftet 
+TRYK_T_T2_PAD						hose grünbrauntan / knieschoner / t-shirt schwarz / kurz arme / handschuhe schwarz beschriftet
+TRYK_U_denim_hood_3c				jeans blau dreck / jacke wüstentan / kaputze / handschuhe schwarz
+TRYK_U_denim_hood_blk				jeans blau dreck / jacke schwarz / kaputze / handschuhe schwarz
+TRYK_U_denim_hood_mc				jeans blau dreck / jacke mtp / kaputze / handschuhe schwarz
+TRYK_U_denim_hood_nc				jeans blau / jacke grün / kaputze / handschuhe
+TRYK_U_denim_jersey_blk				jeans blau / trainjacke schwarz 
+TRYK_U_denim_jersey_blu				jeans blau / trainjacke blau
+TRYK_U_pad_j_blk					hose braun / knieschoner / trainjacke schwarz
+TRYK_U_pad_j						hose wüstentan / knieschoner / trainjacke blau 
+TRYK_U_taki_BL						taliban gewant
+TRYK_U_taki_BLK						taliban gewant
+TRYK_U_taki_COY						taliban gewant
+TRYK_U_taki_wh						taliban gewant
+TRYK_U_taki_G_BL					taliban gewant / handschuhe schwarz
+TRYK_U_taki_G_BLK					taliban gewant / handschuhe schwarz
+TRYK_U_taki_G_COY					taliban gewant / handschuhe schwarz 
+TRYK_U_taki_G_WH					taliban gewant / handschuhe schwarz
+TRYK_T_camo_3c_BG					hose wüstentan / knieschoner / t-shirt braun / kurz arme / handschuhe schwarz
+TRYK_T_camo_desert_marpat_BG		hose wüstentan / knieschoner / t-shirt grau / kurz arme / handschuhe schwarz
+TRYK_T_camo_Wood_BG					hose woodland / knieschoner / holster / t-shirt grau / kurz arme / handschuhe schwarz
+TRYK_T_camo_wood_marpat_BG			hose grünbrauntan / knieschoner / holster / t-shirt schwarz / kurz arme / handschuhe schwarz 
+TRYK_T_camo_3c						hose wüstentan / knieschoner / holster / t-shirt braun / kurz arme / handschuhe schwarz beschriftet 
+TRYK_T_camo_Desert_marpat			hose wüstentan / knieschoner / t-shirt grau / kurz arme / handschuhe schwarz beschriftet / holster
+TRYK_T_camo_tan						hose braun / knieschoner / holster / t-shirt weiß / kurz arme / handschuhe schwarz beschriftet 
+TRYK_T_camo_Wood					hose woodland / knieschoner / t-shirt grau / arme kurz /handschuhe schwarz beschriftet
+TRYK_T_camo_wood_marpat				hose grüntan / knieschoner / holster / t-shirt schwarz / kurz arme / handschuhe schwarz beschriftet
+TRYK_SUITS_BLK_F					anzug schwarz
+TRYK_SUITS_BR_F						anzug braun
+TRYK_U_B_BLK_T_BG_BK				civ jeans schwarz / t-shirt schwarz / kurz arme / handschuhe schwarz 
+TRYK_U_B_RED_T_BG_BR				civ jeans braun / t-shirt rot / kurz arme / handschuhe schwarz 
+TRYK_U_B_BLK_T_BG_WH				civ jeans schwarz / t-shirt weiß / kurz arme / handschuhe schwarz 
+TRYK_U_B_BLK_T_BK					civ jeans schwarz / t-shirt schwarz / kurz arme 
+TRYK_U_B_RED_T_BR					civ jeans braun / t-shirt rot / kurz arme
+TRYK_U_B_BLK_T_WH					civ jeans schwarz / t-shirt weiß / kurz arme / 
+TRYK_U_B_Denim_T_BG_BK				civ jeans blau dreck / t-shirt schwarz / kurz arme / handschuhe schwarz
+TRYK_U_B_Denim_T_BG_WH				civ jeans blau dreck / t-shirt weiß / kurz arme / handschuhe schwarz
+TRYK_U_B_Denim_T_BK					civ jeans blau dreck / t-shirt schwarz / kurz arme 
+TRYK_U_B_Denim_T_WH					civ jeans blau dreck / t-shirt weiß / kurz arme 
+TRYK_ZARATAKI						taliban gewant muni
+TRYK_ZARATAKI2						taliban gewant muni
+TRYK_ZARATAKI3						taliban gewant muni 
+TRYK_U_B_TANTAN_CombatUniform		hose braun / jacke braun 
+TRYK_U_B_TANTAN_R_CombatUniform		hose braun / jacke braun / kurz arme 
+TRYK_U_B_JSDF_CombatUniform			hose grünbrauntan / jacke grünbrauntan / japanflagge
+TRYK_U_B_JSDF_CombatUniformTshirt	hose grünbrauntan / jacke grünbrauntan / japanflagge / kurz arme
+TRYK_B_TRYK_UCP_T					hose ucp / t-shirt grau / kurz arme / handschuhe braun protektoren
+TRYK_U_B_NATO_UCP_GRY_CombatUniform		hose ucp / jacke grau / handschuhe braun protektoren
+TRYK_U_B_NATO_UCP_GRY_R_CombatUniform	hose ucp / jacke grau / kurz arme / handschuhe braun protektoren
+TRYK_B_USMC_R						hose grünbrauntan / jacke grün / handschuhe schwarz protektoren
+TRYK_B_USMC_R_ROLL					hose grünbrauntan / jacke grün / kurz arme / handschuhe schwarz protektoren
+TRYK_U_B_PCUHsW4					schneetan / knieschoner / kaputze / handschuhe schnee
+TRYK_U_B_PCUHsW						schneetan / knieschoner / aufgestzte kaputze / handschuhe schnee
+TRYK_U_B_PCUHsW2					schneetan / knieschoner / aufgestzte kaputze / handschuhe schwarz
+TRYK_U_B_PCUHsW5					schneetan / aufgestzte kaputze
+TRYK_U_B_PCUHsW6					schneetan / kaputze
+TRYK_U_B_Woodland					woodland / handschuhe schwarz protektoren
+TRYK_U_B_Woodland_Tshirt			woodland / handschuhe schwarz protektoren / kurz arme
+TRYK_U_B_WDL_GRY_CombatUniform		hose woodland / jacke grau / handschuhe schwarz protektoren
+TRYK_U_B_WDL_GRY_R_CombatUniform	hose woodland / jacke grau / handschuhe schwarz protektoren / kurz arme
+TRYK_U_B_Wood_T						hose woodland / t-shirt braun / kurz arme / handschuhe schwarz protektoren
+
+Westen:
+TRYK_V_Bulletproof_BL (blaue Weste)
+TRYK_V_Bulletproof_BLK (schwarze Weste)
+TRYK_V_Bulletproof (weiße Weste)
+TRYK_V_ChestRig_L (Munitionsträger Plattengurt)
+TRYK_V_ChestRig (Operator Plattengurt)
+TRYK_V_harnes_blk_L (schwarze Grenadier Weste)
+TRYK_V_harnes_od_L (grüne Grenadier Weste)
+TRYK_V_harnes_TAN_L (Wüsten Grenadier Weste)
+TRYK_Hrp_vest_od (grüne Pilotenweste)
+TRYK_Hrp_vest_ucp (Urban Pilotenweste)
+TRYK_V_IOTV_BLK (schwarze Schutzweste)
+TRYK_V_PlateCarrier_JSDF (grüne Grenadier Weste)
+TRYK_V_PlateCarrier_POLICE (grüne Polizei Weste)
+TRYK_V_ArmorVest_Winter (Winter leichter Carrier)
+TRYK_V_Sheriff_BA_TB (schwarze leichete Weste)
+TRYK_V_Sheriff_BA_T (grüne ")
+TRYK_V_Sheriff_BA_TB2 (schwarze Assault Weste)
+TRYK_V_Sheriff_BA_T2 (grüne ")
+TRYK_V_Sheriff_BA_TB3 (schwarze leiche CQB Weste)
+TRYK_V_Sheriff_BA_T3 (grüne ")
+TRYK_V_Sheriff_BA_TBL (schwarze schwere Operator Weste)
+TRYK_V_Sheriff_BA_TCL (tan ")
+TRYK_V_Sheriff_BA_TL (grüne ")
+TRYK_V_Sheriff_BA_TBL2 (schwarz-tan Munitionsplattengurt)
+TRYK_V_Sheriff_BA_TCL2 (tan ")
+TRYK_V_Sheriff_BA_TL2 (grün-tan ")
+TRYK_V_Sheriff_BA_TBL3_BK (schwerer schwarzer Plattengurt)
+TRYK_V_Sheriff_BA_TBL3_TN (schwerer tan Plattengurt)
+TRYK_V_Sheriff_BA_TBL3_OD (schwerer grüner Plattengurt)
+TRYK_V_Sheriff_BA_TB4 (leichter schwarzer Medic-Plattengurt)
+TRYK_V_Sheriff_BA_T4 (leichter grüner Medic-Plattengurt)
+TRYK_V_Sheriff_BA_TB5 (leichter Munitionsrig in schwarz)
+TRYK_V_Sheriff_BA_T5 (leichter Munitionsrig in grün)
+TRYK_V_tacSVD_BK (leichte schwarze Weste)
+TRYK_V_tacSVD_OD (leichte grüne Weste)
+TRYK_V_tacv1M_BK (leichte schwarze Weste)
+TRYK_V_tacv1LC_MSL_BK (schwere Polizeiweste in schwarz)
+TRYK_V_tacv1LC_MSL_NV (schwere Polizeiweste in blau&schwarz)
+TRYK_V_tacv1LMSL_BK (leichte Polizeiweste in schwarz)
+TRYK_V_tacv1LMSL_NV (leichte Polizeiweste in blau&schwarz)
+TRYK_V_tacv1_MSL_BK (leichte Polizeioperatorweste in schwarz)
+TRYK_V_tacv1_MSL_NV (leichte           "          in blau&schwarz)
+TRYK_V_tacv1LC_P2_BK (schwere SEK Weste)
+
+Rucksäcke:
+CUP_B_AlicePack_Khaki	alice pack / khaki
+tf_anarc164				funke / flecktan
+tf_anarc210				funke / mtp
+tf_anprc155				funke / aaf tan
+tf_anprc155_coyote		funke / coyote tan
+tf_bussole				funke / russending
+CUP_B_Bergen_BAF		rucksack / khaki
+CUP_B_CivPack_WDL		rucksack / woodland
+CUP_B_ACRPara_m95		rucksack groß / flecktan grau
+CUP_B_ACRScout_m95 		rucksack klein / flecktan grau
+CUP_B_GER_Pack_Flecktarn	rucksack / flecktan
+CUP_B_GER_Pack_Tropentarn	rucksack / tropentan
+CUP_B_HikingPack_Civ	rucksack / woodland
+CUP_B_GER_Medic_Desert	rucksack / tropentan / medic
+CUP_B_GER_Medic_FLecktarn	rucksack 7 flecktan / medic
+CUP_B_SLA_Medicbag		umhängetasche / grün 
+CUP_B_TK_Medic_Desert	rucksack / ucp / türkenflagge
+CUP_B_GER_Medic_Tropentarn	rucksack / tropentan / medic
+tf_mr3000				funke / csat
+tf_mr3000_bwmod			funke / flecktan
+tf_mr3000_bwmod_tropen	funke / tropentan
+tf_mr3000_multicam		funke / multicam
+tf_mr3000_rhs			funke / russentan
+tf_mr6000l				funke / braun (hässlig)
+CUP_B_RPGPack_Khaki		rucksack / rpg rucksack
+tf_rt1523g				funke / klein / mtp
+tf_rt1523g_big			funke / mtp
+tf_rt1523g_big_bwmod	funke / flecktan
+tf_rt1523g_big_bwmod_tropen	funke / tropentan
+tf_rt1523g_big_rhs		funke / mtp
+tf_rt1523g_black		funke / schwarz
+tf_rt1523g_bwmod		funke / klein / tropentan
+tf_rt1523g_fabric		funke / grün braun 
+tf_rt1523g_green		funke / grau grün
+tf_rt1523g_rhs			funke / klein / mtp
+tf_rt1523g_sage			funke / khaki
+ACE_TacticalLadder_Pack		Teleskopleiter
+TRYK_B_Alicepack		alicepack / grün
+TRYK_B_AssaultPack_MARPAT_Desert	rucksack / klein / wüstentan
+TRYK_B_AssaultPack_MARPAT_Wood		rucksack / klein / waldtan
+TRYK_B_AssaultPack_Type2camo		rucksack / klein / woodland
+TRYK_B_AssaultPack_UCP				rucksack / klein / ucp
+TRYK_B_Coyotebackpack_BLK			rucksack / groß / schwarz
+TRYK_B_Coyotebackpack				rucksack / groß / coyote
+TRYK_B_Coyotebackpack_OD			rucksack / groß / grün
+TRYK_B_Coyotebackpack_WH			rucksack / groß / weiß
+TRYK_B_Carryall_JSDF				rucksack / groß / waldtan
+TRYK_B_Carryall_blk					rucksack / groß / schwarz
+TRYK_B_Carryall_wh					rucksack / groß / weiß
+TRYK_B_Carryall_wood				rucksack / groß / woodland
+TRYK_B_FieldPack_Wood				rucksack / feldpack / woodland
+TRYK_B_Kitbag_aaf					rucksack / aaf braun
+TRYK_B_Kitbag_blk					rucksack / schwarz
+TRYK_B_Kitbag_Base					rucksack / dunkel grün
+TRYK_B_Kitbag_Base_JSDF				rucksack / waldtan
+TRYK_B_Medbag						rucksack / coyote / medic
+TRYK_B_Medbag_BK					rucksack / schwarz / medic
+TRYK_B_Medbag_OD					rucksack / grün / medic
+TRYK_B_Medbag_ucp					rucksack / ucp / medic
+TRYK_B_BAF_BAG_BLK					rucksack / schwarz / kabelbinder
+TRYK_B_BAF_BAG_CYT					rucksack / coyote / kabelbinder
+TRYK_B_BAF_BAG_mcamo				rucksack / mtp / kabelbinder
+TRYK_B_BAF_BAG_OD					rucksack / grün / kabelbinder
+TRYK_B_BAF_BAG_rgr					rucksack dunkel grün / kabelbinder
+TRYK_B_tube_blk						rucksack / waffentasche / klein / schwarz
+TRYK_B_tube_cyt						rucksack / waffentasche / klein / coyote
+TRYK_B_tube_od						rucksack / waffentasche / klein 7 grün
+TRYK_Winter_pack					rucksack / schneetan
+CUP_B_UAVTerminal_Black				rucksack / schwarz / antenne
+CUP_B_AssaultPack_ACU				rucksack / ucp / klein
+CUP_B_AssaultPack_Black				rucksack / schwarz / klein
+CUP_B_AssaultPack_Coyote			rucksack / coyote / klein
+CUP_B_USPack_Black					rucksack / groß / schwarz 
+CUP_B_USPack_Coyote					rucksack / groß / coyote
+CUP_B_USMC_AssaultPack				rucksack / grün
+CUP_B_USMC_MOLLE					rucksack / waldtan
+CUP_B_USMC_MOLLE_WDL				rucksack / woodland
+ace_gunbag							waffentasche / grün
+ace_gunbag_Tan						waffentasche / coyote
+
+!Kopfbedeckungen!
+
+EWK_CigPack_Helmet          Helm mit Zigarettenpackung Schneetarn Camel
+EWK_CigPack_Helmet_OCP      Helm mit Zigarettenpackung  Tropentarn  Camel
+EWK_CigPack_Helmet2         Helm mit Zigarettenpackung  Schneetarn Marlboro
+EWK_CigPack_Helmet2_OCP     Helm mit Zigarettenpackung Tropentarn Marlboro
+sab_wwiplanes_fr_cap        Fliegermütze Rot
+sab_wwiplanes_ger_cap       Fliegermütze Grau
+rds_police_cap              Polizeimütze Grün
+rds_Profiteer_cap4          Blauweiße Mütze
+rds_Profiteer_cap2          Hellgrüne Tennismütze
+rds_Profiteer_cap1          Orangene Mütze
+rds_Profiteer_cap3          Styler Mütze
+sab_SikorskyS38_cap         Sikorsky S38 Mütze hellblau
+TRYK_Kio_Balaclava          Ghosts Balaclava
+TRYK_H_Bandana_H            Grünes Stirnband
+TRYK_H_Bandana_wig          Grünes Stirnbrand mit Perrücke
+TRYK_H_Bandana_wig_g        Grünes Stirnbrand mit Perrücke mit Brille
+TRYK_H_Booniehat_AOR1       Hut Sandtarn
+TRYK_H_Booniehat_AOR2       Hut Hellgrün
+TRYK_H_Booniehat_CC         Gut Schlammtarn
+TRYK_H_Booniehat_MARPAT_Desert  Sandtarn Trocken
+TRYK_H_Booniehat_MARPAT_WOOD   Wald mit Braun
+TRYK_H_Booniehat_JSDF       Waldtarn Cammo
+TRYK_H_Booniehat_WOOD       Waldtarn mit Sandtarn 
+TRYK_H_EARMUFF              Kopfhörer
+TRYK_ESS_CAP                Kopfhörer mit schwarzer Mütze
+TRYK_ESS_CAP_OD             Kopfhörer mit grüner Mütze
+TRYK_ESS_CAP_tan            Kopfhörer mit Sand Mütze
+TRYK_H_ghillie_top_headless3   Obeerkörperghillie sand
+TRYK_H_ghillie_over_green      Ganzkörperghillie grün
+TRYK_H_ghillie_top_green       Oberkörperghillie mit Kopf hellgrün
+TRYK_H_ghillie_top_headless_green  Oberkörperghillie hellgrün
+TRYK_H_ghillie_over             Ganzkörperghillie sand
+TRYK_H_ghillie_top              Oberkörperghillie mit Kopf sand
+TRYK_H_ghillie_top_headless     Oberkörperghillie sand
+TRYK_H_headset2                 schwarzes Einohrheadset 
+TRYK_H_headsetcap_Glasses       Sandmütze mit Brille
+TRYK_H_headsetcap_blk_Glasses   Schwarzemütze mit Brille
+TRYK_H_headsetcap_od_Glasses    Grünemütze mit Brille
+TRYK_H_headsetcap_blk           schwarzes Einohrheadset mit Schwarzermütze
+TRYK_H_headsetcap_od            schwarzes Einohrheadset mit Grünermütze
+TRYK_H_headsetcap               schwarzes Einohrheadset mit Sandmütze
+TRYK_H_AOR1                     Sandfarbender Kampfhelm
+TRYK_H_AOR2                     Tropentarnkampfhelm
+TRYK_H_GR                       Grünerkampfhelm
+TRYK_H_Helmet_3C                MICH Sandtarn
+TRYK_H_Helmet_CC                Mich Sumpftarn
+TRYK_H_Helmet_MARPAT_Desert     MICH Sandtarn
+TRYK_H_Helmet_MARPAT_Desert2    MICH Sandtarn
+TRYK_H_Helmet_MARPAT_Wood       MICH Waldtarn
+TRYK_H_Helmet_ACU               MICH Schneetarn
+TRYK_H_Helmet_WOOD              MICH Waldtarn 
+TRYK_H_pakol2                   Taliban Mütze
+TRYK_H_pakol                    Taliban Mütze mit Headset
+TRYK_H_PASGT_BLK                Kampfhelm schwarz
+TRYK_H_PASGT_COYO               Kampfhelm braun
+TRYK_H_PASGT_OD                 Kampfhelm grün
+TRYK_H_PASGT_TAN                Kampfhelm sand
+TRYK_H_DELTAHELM_NV             Kampfhelm Schwarz
+TRYK_R_CAP_BLK                  Schwarze Mütze
+TRYK_R_CAP_TAN                  Sandfarbende Mütze
+TRYK_r_cap_blk_Glasses          Schwarze Mütze mit Brille
+TRYK_r_cap_od_Glasses           Grüne Mütze mit Brille
+TRYK_r_cap_tan_Glasses          Sandtarnmütze mit Brille
+TRYK_H_Helmet_Snow              Schneetarn Kampfhelm
+TRYK_H_WH                       Schneetarn Kampfhelm
+TRYK_H_TACEARMUFF_H             Headset 
+TRYK_H_Helmet_JSDF              Kampfhelm in Waldtarn
+TRYK_H_wig                      Perrücke
+TRYK_H_Helmet_Winter            Schneetarn Kampfhelm
+TRYK_H_Helmet_Winter_2          Schneetarn Kampfhelm  
+TRYK_H_woolhat                  Schwarze Wollmütze
+TRYK_H_woolhat_br               Braune Wollmütze
+TRYK_H_woolhat_cu               Hellgrüne Wollmütze
+TRYK_H_woolhat_CW               Schneetarn Wollmütze
+TRYK_H_woolhat_tan              Sandfarbene Wollmütze
+TRYK_H_woolhat_WH               Weiße Wollmütze
+rds_Woodlander_cap3             Braunrussische Wollmütze
+rds_Woodlander_cap1             Rosarussische Wollmütze
+rds_Woodlander_cap2             Grünrussische Wollmütze
+rds_Woodlander_cap4             Hellbraunerussische Wollmütze
+rds_Villager_cap3               Lila Tallibanhut
+rds_Villager_cap1               Schwarzer Tallibanhut
+rds_Villager_cap2               Brauner Tallibanhut
+rds_Villager_cap4               Karrierter Tallibanhut
+rds_worker_cap3                 Lila Tallibanmütze
+rds_worker_cap4                 Brauner Tallibanmütze
+rds_worker_cap2                 Gelbe Tallibanmütze
+rds_worker_cap1                 Weiße Tallibanmütze
+
+
+!Brillen!
+EWK_Cigar1                      Zigarre
+EWK_Cigar2                      Zigarre mit Brille
+EWK_Cig1                        Zigarrette 
+EWK_Glasses_Cig1                Zigarrette mit Brille
+EWK_Cig2                        Abgebrannte Zigarrette   
+EWK_Glasses_Cig2                Abgebrannte Zigarrette mit Brille   
+EWK_Cig5                        Abgebrannte Zigarrette 
+EWK_Glasses_Cig5                Abgebrannte Zigarrette mit Brille
+EWK_Cig6                        Brennende Zigarrette
+EWK_Glasses_Cig6                Bernnende Zigarrette mit Brille
+EWK_Shemag_NB_Cig6              Weißes Halstuch mit Zigarrette
+EWK_Shemag_GRE_Cig6             Grünes Halstuch mit Zigarrette
+EWK_Shemag_tan_Cig6             Braunes Halstuch mit Zigarrette
+EWK_Glasses_Shemag_NB_Cig6      Bernnende Zigarrette mit Brille mit Weißem Halstuch
+EWK_Glasses_Shemag_GRE_Cig6     Bernnende Zigarrette mit Brille mit grünem Halstuch
+EWK_Glasses_Shemag_tan_Cig6     Bernnende Zigarrette mit Brille mit braunem Halstuch
+EWK_Cig3                        Abgebrannte Zigarrette 
+EWK_Glasses_Cig3                Abgebrannte Zigarrette mit Brille
+EWK_Cig4                        Brennende Zigarrette
+EWK_Glasses_Cig4                Bernnende Zigarrette mit Brille
+EWK_Shemag_NB                   Weißes Halstuch
+EWK_Shemag_LULZ                 Hello Kitty Halstuch
+EWK_Shemag_GRE                  Grünes Halstuch
+EWK_Shemag_tan                  Braunes Halstuch
+TRYK_kio_balaclava_BLK          Schwarzes Balaclava
+TRYK_kio_balaclavas             Ghost Balaclava
+TRYK_kio_balaclava_WH           Weißes Balaclava
+TRYK_kio_balaclava_BLK_ear      Schwarzes Balaclava mit Kopfhörer
+TRYK_kio_balaclava_ear          Ghost Balaclava mit Kopfhörer
+TRYK_kio_balaclava_ESS          Schwarzes Balaclava mit Brille
+TRYK_bandana_g                  Grünes Bandana
+TRYK_Beard_BK                   Taliban Bart Schwarz
+TRYK_Beard                      Taliban Bart Blond
+TRYK_Beard_BW                   Taliban Bart Braun
+TRYK_Beard_Gr                   Taliban Bart Weiß
+TRYK_Beard_BK2                  Taliban Bart Schwarz
+TRYK_Beard2                     Taliban Bart Blond
+TRYK_Beard_BW2                  Taliban Bart Braun
+TRYK_Beard_Gr2                  Taliban Bart Weiß
+TRYK_Beard_BK3                  Taliban Bart Schwarz
+TRYK_Beard3                     Taliban Bart Blond
+TRYK_Beard_BW3                  Taliban Bart Braun
+TRYK_Beard_Gr3                  Taliban Bart Weiß
+TRYK_Beard_BK4                  Taliban Bart Schwarz
+TRYK_Beard4                     Taliban Bart Blond
+TRYK_Beard_BW4                  Taliban Bart Braun
+TRYK_Beard_Gr4                  Taliban Bart Weiß
+TRYK_US_ESS_Glasses             Taucherbrille Schwarz
+TRYK_US_ESS_Glasses_TAN_BLK     Taucherbrille Sandfarben
+TRYK_US_ESS_Glasses_BLK         Taucherbrille Schwarz
+TRYK_US_ESS_Glasses_TAN         Taucherbrille Sandfarben
+TRYK_US_ESS_Glasses_WH          Taucherbrille Weiß
+TRYK_H_ghillie_top_headless3glass   Ghillie Jacke
+TRYK_headset2_glasses           Einohrheadset
+TRYK_headset_Glasses            Headset
+TRYK_Shemagh_mesh               Braunes Halstuch
+TRYK_Shemagh_G                  Grünes Halstuch
+TRYK_Shemagh                    Hellbraunes Halstuch
+TRYK_Shemagh_WH                 Weißes Halstuch mit Kopfhörer
+TRYK_Shemagh_EAR_G              Grünes Halstuch mit Kopfhörer
+TRYK_Shemagh_EAR_WH             Weißes Halstuch mit Kopfhörer
+TRYK_Shemagh_ESS_G              Grünes Halstuch
+TRYK_Shemagh_ESS                Braunes Halstuch mit Taucherbrille
+TRYK_Shemagh_ESS_WH             Weißes Halstuch mit Taucherbrille
+TRYK_Shemagh_shade_MH           Braunes Halstuch mit Brille
+TRYK_Shemagh_shade_G            Grünes Halstuch mit Brille
+TRYK_Shemagh_shade_WH           Weißes Halstuch mit Brille
+TRYK_shoulder_armor_BK          Schwarzes Schulterpolzter
+TRYK_shoulder_armor_CY          Braunes Schulterpolzter
+TRYK_shoulder_armor_OD          Grünes Schulterpolzter
+TRYK_SpsetG_Glasses             Rauchgranate, Handschuh, Knicklicht
+TRYK_SPGEAR_Glasses             Rauchgranate, Knicklicht
+TRYK_Spset_PHC1_Glasses         Rauchgranate, Knicklicht, Kabelbinder 
+TRYK_Spset_PHC2_Glasses         Rauchgranate, Knicklicht, Kabelbinder 
+TRYK_TAC_EARMUFF_Gs             Headset
+TRYK_TAC_SET_bn                 Kopfhörer
+TRYK_NOMIC_TAC_EARMUFF_Gs       Kopfhörer
+TRYK_TAC_EARMUFF_SHADE_Gs       Headset mit Brille
+TRYK_TAC_SET_MESH_2             Headset mit Brille braunes Halstuch und Rauchgranate, Knicklicht, Kabelbinder 
+TRYK_TAC_SET_OD_2               Headset mit Brille grünes Halstuch und Rauchgranate, Knicklicht, Kabelbinder
+TRYK_TAC_SET_TAN_2              Headset mit Brille braunes Halstuch und Rauchgranate, Knicklicht, Kabelbinder                   
+TRYK_TAC_SET_WH_2               Headset mit Brille weißes Halstuch und Rauchgranate, Knicklicht, Kabelbinder  
+TRYK_TAC_SET_MESH               Headset mit Brille braunes Halstuch                 
+TRYK_TAC_SET_OD                 Headset mit Brille grünes Halstuch
+TRYK_TAC_SET_TAN                Headset mit Brille braunes Halstuch
+TRYK_TAC_SET_WH                 Headset mit Brille weißes Halstuch 
+
+!Nachtsichtgerät!
+CUP_NVG_PVS7                    Nachtsichtgerät
+TRYK_G_bala_wh_NV               Weiße Skimaske
+TRYK_balaclava_BLACK_NV         Schwarze Skimaske
+TRYK_balaclava_NV               Weiße Skimaske
+TRYK_balaclava_BLACK_EAR_NV     Schwarze Skimaske mit Kopfhörer
+TRYK_balaclava_EAR_NV           Ghosts Skimaske mit Kopfhörer
+TRYK_G_bala_ess_NV              Schwarze Skimaske mit Brille
+TRYK_bandana_NV                 Grünes Stirnband
+TRYK_Headphone_NV               Kopfhörer
+TRYK_US_ESS_Glasses_Cover       Brillenhülle
+TRYK_US_ESS_Glasses_NV          Kampfbrille
+TRYK_ESS_BLKTAN_NV              Sandfarbene Brille       
+TRYK_US_ESS_Glasses_TAN_NV      Sandfarbene Brille 
+TRYK_ESS_wh_NV                  Weiße Brille
+TRYK_ESS_BLKBLK_NV              Schwarze Brille
+TRYK_headset2                   Einohrheadset
+TRYK_Headset_NV                 Headset
+TRYK_G_Shades_Black_NV          Schwarze Brille
+TRYK_G_Shades_Blue_NV           Blaue Brille
+TRYK_Shemagh_MESH_NV            Braunes Halstuch 
+TRYK_Shemagh_G_NV               Grünes Halstuch
+TRYK_Shemagh_TAN_NV             Braunes Halstuch
+TRYK_Shemagh_WH_NV              Weißes Halstuch
+TRYK_Shemagh_EAR_G_NV           Grünes Halstuch mit Kopfhöhrern
+TRYK_Shemagh_EAR_NV             Braunes Halstuch mit Kopfhöhrern
+TRYK_ShemaghESSWH_NV            Weißes Halstuch mit Kopfhöhrern
+TRYK_ShemaghESSOD_NV            Grüneshalstuch
+TRYK_ShemaghESSTAN_NV           Braunes Halstuch mit Kampfbrille
+TRYK_Shemagh_EAR_WH_NV          Weißes Halstuch mit Kampfbrille
+TRYK_Shemagh_shade_MESH         Braunes Halstuch mit Brille
+TRYK_Shemagh_shade_G_N          Grünes Halstuch mit Brille
+TRYK_Shemagh_shade_N            Braunes Halstuch mit Brille
+TRYK_Shemagh_shade_WH_N         Weißes Halstuch mit Brille
+TRYK_SPgearG_NV                 Rauchgranate, Handschuh, Knicklicht
+TRYK_SPgear_PHC1_NV             Rauchgranate, Knicklicht, Kabelbinder 
+TRYK_SPgear_PHC2_NV             Rauchgranate, Knicklicht, Kabelbinder 
+TRYK_HRPIGEAR_NV                Rauchgranate, Knicklicht
+TRYK_TAC_boonie_SET_NV          Kopfhöhrer
+TRYK_NOMIC_TAC_EARMUFF          Kopfhöhrer
+TRYK_TAC_EARMUFF                Headset
+TRYK_TAC_EARMUFF_SHADE          Headset mit Brille
+TRYK_TAC_SET_NV_MESH_2          Headset mit Brille braunes Halstuch und Rauchgranate, Knicklicht, Kabelbinder 
+TRYK_TAC_SET_NV_OD_2            Headset mit Brille grünes Halstuch und Rauchgranate, Knicklicht, Kabelbinder 
+TRYK_TAC_SET_NV_TAN_2           Headset mit Brille braunes Halstuch und Rauchgranate, Knicklicht, Kabelbinder
+TRYK_TAC_SET_NV_WH_2            Headset mit Brille weißes Halstuch und Rauchgranate, Knicklicht, Kabelbinder
+TRYK_TAC_SET_NV_MESH            Headset mit Brille braunes Halstuch
+TRYK_TAC_SET_NV_OD              Headset mit Brille grünes Halstuch
+TRYK_TAC_SET_NV_TAN             Headset mit Brille braunes Halstuch
+TRYK_TAC_SET_NV_WH              Headset mit Brille weißes Halstuch

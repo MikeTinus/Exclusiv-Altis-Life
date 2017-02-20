@@ -1,0 +1,114 @@
+			//Launcher Section
+			{ "launch_NLAW_F", "Anti-Armed-Vehicle", 1000000, 100000 },
+			{ "launch_B_Titan_F", "Helischreck", 1500000, 150000 },
+			//Grenade/Explosive Section
+			{ "SmokeShell", "", 1000, 100 },
+			{ "SmokeShellBlue", "Markierung", 1000, 100 },
+			{ "ACE_M84", "", 2500, 250 },
+			{ "SmokeShellRed", "Tränengas", 2500, 250 },
+			{ "HandGrenade", "", 10000, 1000 },
+			{ "DemoCharge_Remote_Mag", "", 50000, 5000 },
+			{ "ACE_Clacker", "", 1000, 100 },
+			{ "ACE_M26_Clacker", "", 3000, 300 },
+			{ "ACE_DefusalKit", "", 2000, 200 },
+			{ "ACE_VMH3", "Minendetektor", 10000, 1000 },
+			{ "ACE_VMM3", "Minendetektor", 10000, 1000 },
+			//Optic Section
+			{ "optic_Aco", "", 2500 },
+			{ "optic_Holosight", "", 3000 },
+			{ "CUP_optic_CompM4", "", 6000 },
+			{ "optic_Arco", "", 8000 },
+			{ "optic_Hamr", "", 8000 },
+			{ "optic_MRCO", "", 10000 },
+			{ "CUP_optic_SB_11_4x20_PM", "", 20000 },
+			{ "optic_DMS", "", 30000 },
+			{ "HLC_Optic_G36dualoptic35x", "", 10000 },
+			{ "HLC_Optic_G36dualoptic35x2d", "", 10000 },
+			{ "optic_NVS", "", 75000 },
+			{ "optic_tws", "", 90000 },
+			//Additional Section
+			{ "acc_flashlight", "", 1000 },
+			{ "acc_pointer_IR", "", 5000 },
+			//Muzzle Section
+			{ "muzzle_snds_L", "", 2000 },
+			{ "muzzle_snds_acp", "", 2000 },
+			{ "muzzle_snds_M", "", 2000 },
+			{ "muzzle_snds_H", "", 2000 },
+			{ "muzzle_snds_570", "", 2000 },		
+			{ "muzzle_HBADGER", "", 2000 },
+			{ "FHQ_muzzle_snds_68SPC", "", 2000 },
+			{ "muzzle_snds_B", "", 2000 },
+			{ "muzzle_snds_H_MG", "", 2000 },
+			{ "muzzle_snds_93mmg_tan", "", 2000 },
+			//Bipod Section
+			{ "bipod_01_F_snd", "", 5000 },
+			{ "bipod_01_F_blk", "", 5000 },
+			//Sanisection
+			{ "ACE_fieldDressing", "", 150, 15 },
+			{ "ACE_elasticBandage", "", 150, 15 },
+			{ "ACE_quikclot", "", 150, 15 },
+			{ "ACE_packingBandage", "", 150, 15 },
+			{ "ACE_epinephrine", "", 150, 15 },
+			{ "ACE_morphine", "", 150, 15 },
+			{ "ACE_salineIV_500", "", 150, 15 },
+			{ "ACE_personalAidKit", "", 150, 15 },
+			{ "ACE_tourniquet", "", 150, 15 },
+			//Item Section
+			{ "ACE_IR_Strobe_Item", "", 150, 15 },
+			{ "ACE_CableTie", "", 100, 10 },
+			{ "ACE_Flashlight_XL50", "", 100, 10 },
+			{ "ACE_EarPlugs", "", 100, 10 },
+			{ "ACE_wirecutter", "", 100, 10 },
+			{ "ACE_MapTools", "", 100, 10 },
+			{ "ItemWatch", "", 150, 15 },
+			{ "ItemCompass", "", 150, 15 },
+			{ "ItemGPS", "", 200, 20 },
+			{ "ACE_microDAGR", "", 500, 50 },
+			{ "ACE_HuntIR_monitor", "Kameratablet", 50000, 5000 },
+			{ "ItemMap", "", 150, 15 },
+			{ "tf_microdagr", "Funk konfigurieren", 150, 15 },
+			{ "ToolKit", "", 2500, 250 },
+			{ "FirstAidKit", "non-ACE EHK, wandelt in ACE um", 200, 20 },
+			{ "Medikit", "non-ACE Medikit, wandelt in ACE um", 1000, 100 },
+			{ "Binocular", "", 5000, 500 },
+			{ "Rangefinder", "", 15000, 1500 },
+			{ "B_UavTerminal", "", 40000, 4000 },
+			{ "NVGoggles", "", 25000, 2500 },
+			{ "NVGoggles_OPFOR", "", 25000, 2500 },
+			{ "tf_anprc152", "", 10000, 1000 }
+		ACE_HuntIR_M203
+this linkItem "tf_rf7800str";
+
+comment "Exported from Arsenal by [Major] Jan";
+
+comment "Remove existing items";
+removeAllWeapons this;
+removeAllItems this;
+removeAllAssignedItems this;
+removeUniform this;
+removeVest this;
+removeBackpack this;
+removeHeadgear this;
+removeGoggles this;
+
+comment "Add containers";
+this forceAddUniform "EAL_bp_uniform";
+this addItemToUniform "RH_gemtech9";
+this addItemToUniform "ACE_morphine";
+for "_i" from 1 to 3 do {this addItemToUniform "16Rnd_9x21_Mag";};
+this addVest "rds_pistol_holster";
+this addHeadgear "TRYK_H_woolhat";
+this addGoggles "G_Shades_Blue";
+
+comment "Add weapons";
+this addWeapon "hgun_P07_F";
+
+comment "Add items";
+this linkItem "ItemMap";
+this linkItem "tf_microdagr";
+this linkItem "tf_anprc148jem_1";
+this linkItem "ItemGPS";
+
+comment "Set identity";
+this setFace "WhiteHead_03";
+this setSpeaker "ACE_NoVoice";
