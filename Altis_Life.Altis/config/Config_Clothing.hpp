@@ -139,10 +139,8 @@ class Clothing {
         };
         headgear[] = {	
             { "NONE", "Remove Hat", 0, { "", "", -1 } },
-			{ "TRYK_H_PASGT_BLK", "SEK-Helm", 10000, { "life_coplevel", "SCALAR", 6 } },
-			{ "TRYK_H_woolhat", "Wollmütze", 2500, { "life_coplevel", "SCALAR", 6 } },
-			{ "H_HelmetB_black", "SEK-Helm", 10000, { "life_coplevel", "SCALAR", 7 } },
-			{ "H_Watchcap_blk", "Beanie", 2750, { "life_coplevel", "SCALAR", 7 } },
+			{ "H_HelmetB_black", "SEK-Helm", 10000, { "life_coplevel", "SCALAR", 6 } },
+			{ "H_Watchcap_blk", "Wollmütze", 2500, { "life_coplevel", "SCALAR", 6 } },
 			{ "H_HelmetSpecB_blk", "SEK-Helm equipped", 75, { "life_coplevel", "SCALAR", 8 } },
 			{ "EAL_helmet_visor", "", 30000, { "life_coplevel", "SCALAR", 9 } },
 			{ "EAL_polizei_uscap", "SEK-Mütze", 2500, { "life_coplevel", "SCALAR", 9 } },
@@ -169,10 +167,10 @@ class Clothing {
         };
         vests[] = {
             { "NONE", "Remove Vest", 0, { "", "", -1 } },
-            { "TRYK_V_tacv1LC_MSL_BK", "SEK-Weste", 35000, { "life_coplevel", "SCALAR", 6 } },
+            { "TAC_V_Sheriff_BA_TB", "SEK-Weste", 35000, { "life_coplevel", "SCALAR", 6 } },
 			{ "EAL_polizei_guertel", "SEK-Battlebelt", 800, { "life_coplevel", "SCALAR", 6 } },
-			{ "TRYK_V_tacv1LMSL_BK", "SEK-Weste", 35000, { "life_coplevel", "SCALAR", 7 } },
-			{ "TRYK_V_tacv1LC_P2_BK", "SEK-Weste schwer", 35000, { "life_coplevel", "SCALAR", 8 } },
+			{ "TAC_V_Sheriff_BA_TBL7", "SEK-Weste", 35000, { "life_coplevel", "SCALAR", 7 } },
+			{ "TAC_V_Sheriff_BA_TBL", "SEK-Weste schwer", 35000, { "life_coplevel", "SCALAR", 8 } },
 			{ "EAL_polizei_plattentraeger_schwer", "schwerer SEK-Plattenträger (SK IV)", 75000, { "life_coplevel", "SCALAR", 9 } },
 			{ "EAL_polizei_plattentraeger_breacher", "Explosionsgeschützter SEK-Plattenträger (SK III)", 50000, { "life_coplevel", "SCALAR", 10 } },
 			{ "EAL_polizei_plattentraeger_leicht", "SEK-Plattenträger", 25000, { "life_coplevel", "SCALAR", 12 } },

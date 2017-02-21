@@ -1,0 +1,23 @@
+this addVest "TAC_HSG_ABH_B";			Battlebelt 1
+this addVest "TAC_HSG_ABL_B";			Battlebelt 2
+this addVest "TAC_PBDFG2_B_1";			IdZ Weste leer
+this addVest "TAC_PBDFG2C_B_1";			" 	" 	" Kragen
+this addVest "TAC_PBDFG2CPL_BK";		" 	" leicht Kragen Battlebelt
+this addVest "TAC_PBDFG2D_B";			" 	" 	" Beintasche
+this addVest "TAC_FS_FO_B";				JPC
+this addVest "TAC_FS_FOL_B";			" Battlebelt
+this addVest "TAC_HGB_B";				Riggerbelt
+this addVest "TAC_Jvest_U";				Kripo geheim
+this addVest "TAC_V_CTBA";				Plattenträger full
+this addVest "TAC_V_CTBA2";				" 	"
+this addVest "TAC_V_Sheriff_BA_TB";		" 	Operator
+this addVest "TAC_V_Sheriff_BA_TB2";	" 	Assault
+this addVest "TAC_V_Sheriff_BA_TB3";	" 	CQB
+this addVest "TAC_V_Sheriff_BA_TBL7";	" 	Gren full
+this addVest "TAC_V_Sheriff_BA_TB7";	" 	"
+this addVest "TAC_V_Sheriff_BA_TBL";	"	dick
+this addVest "TAC_V_Sheriff_BA_TBL3_BK";"	" armor
+this addVest "TAC_V_Sheriff_BA_TBL4";	"	" 2
+this addVest "TAC_V_Sheriff_BA_TB4";	"	Medic
+this addVest "TAC_V_Sheriff_BA_TB6";	"	Point
+this addVest "TAC_V_Sheriff_BA_TB5";	" 	MG

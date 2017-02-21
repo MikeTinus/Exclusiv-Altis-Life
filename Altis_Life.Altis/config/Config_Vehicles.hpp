@@ -23,16 +23,6 @@ class CarShops {
             { "Mrshounka_r5_grise", { "", "", -1 } },
             { "Mrshounka_r5_bleufonce", { "", "", -1 } },
             { "Mrshounka_r5_civ", { "", "", -1 } },
-            { "RDS_Gaz24_Civ_03", { "", "", -1 } },
-            { "RDS_Gaz24_Civ_01", { "", "", -1 } },
-            { "RDS_Gaz24_Civ_02", { "", "", -1 } },
-            { "RDS_Golf4_Civ_01", { "", "", -1 } },
-            { "RDS_S1203_Civ_01", { "", "", -1 } },
-            { "RDS_Octavia_Civ_01", { "", "", -1 } },
-            { "RDS_Lada_Civ_01", { "", "", -1 } },
-            { "RDS_Lada_Civ_04", { "", "", -1 } },
-            { "RDS_Lada_Civ_03", { "", "", -1 } },
-            { "RDS_Lada_Civ_02", { "", "", -1 } },
             { "A3L_RX7_White", { "", "", -1 } },
             { "A3L_RX7_Blue", { "", "", -1 } },
             { "A3L_RX7_Red", { "", "", -1 } },
@@ -849,7 +839,6 @@ class CarShops {
 			{ "C_Offroad_01_F", { "life_coplevel", "SCALAR", 6 } },
 			{ "DAR_TaurusCiv", { "life_coplevel", "SCALAR", 8 } },
 			{ "DAR_TaurusCivBlack", { "life_coplevel", "SCALAR", 8 } },
-			{ "RDS_Octavia_Civ_01", { "life_coplevel", "SCALAR", 8 } },
 			{ "shounka_a3_audiq7_bleu", { "life_coplevel", "SCALAR", 9 } },
 			{ "Mrshounka_Volkswagen_Touareg_grise", { "life_coplevel", "SCALAR", 9 } },
 			{ "Mrshounka_Volkswagen_Touareg_noir", { "life_coplevel", "SCALAR", 9 } },
@@ -1971,20 +1960,6 @@ will modify the virtual space and the price of the vehicle, but other informatio
 	class Mrshounka_r5_grise : Mrshounka_r5_violet {};
 	class Mrshounka_r5_bleufonce : Mrshounka_r5_violet {};
 	class Mrshounka_r5_civ : Mrshounka_r5_violet {};
-	class RDS_Gaz24_Civ_03 : Mrshounka_r5_violet {};
-	class RDS_Gaz24_Civ_01 : Mrshounka_r5_violet {};
-	class RDS_Gaz24_Civ_02 : Mrshounka_r5_violet {};
-	class RDS_Golf4_Civ_01 : Mrshounka_r5_violet {};
-	class RDS_S1203_Civ_01 : Mrshounka_r5_violet {};
-	
-	class RDS_Octavia_Civ_01 : shounka_a3_cliors_civ {
-        price = 55000;
-    };
-	
-	class RDS_Lada_Civ_01 : Mrshounka_r5_violet {};
-	class RDS_Lada_Civ_04 : Mrshounka_r5_violet {};
-	class RDS_Lada_Civ_03 : Mrshounka_r5_violet {};
-	class RDS_Lada_Civ_02 : Mrshounka_r5_violet {};
 	
 	class A3L_RX7_White : shounka_a3_cliors_civ {
         price = 45000;
@@ -2019,12 +1994,14 @@ will modify the virtual space and the price of the vehicle, but other informatio
 	class shounka_clk_orange : shounka_clk {};
 	class shounka_clk_rose : shounka_clk {};
 	class shounka_clk_violet : shounka_clk {};
-	class S_Skyline_Yellow : RDS_Octavia_Civ_01 {};
-	class S_Skyline_White : RDS_Octavia_Civ_01 {};
-	class S_Skyline_Red : RDS_Octavia_Civ_01 {};
-	class S_Skyline_Black : RDS_Octavia_Civ_01 {};
-	class S_Skyline_Blue : RDS_Octavia_Civ_01 {};
-	class S_Skyline_Purple : RDS_Octavia_Civ_01 {};
+	class S_Skyline_Yellow : shounka_a3_cliors_civ {
+		price = 55000;
+	};
+	class S_Skyline_White : S_Skyline_Yellow {};
+	class S_Skyline_Red : S_Skyline_Yellow {};
+	class S_Skyline_Black : S_Skyline_Yellow {};
+	class S_Skyline_Blue : S_Skyline_Yellow {};
+	class S_Skyline_Purple : S_Skyline_Yellow {};
 	class Jonzie_Mini_Cooper : Mrshounka_r5_violet {};
 	
 	class Jonzie_Mini_Cooper_R_spec : shounka_a3_cliors_civ {
@@ -2032,9 +2009,9 @@ will modify the virtual space and the price of the vehicle, but other informatio
     };
 	
 	class Jonzie_Galant : Jonzie_30CSL {};
-	class mrshounka_92_civ : RDS_Octavia_Civ_01 {};
-	class mrshounka_92_civ_noir : RDS_Octavia_Civ_01 {};
-	class mrshounka_92_civ_jaune : RDS_Octavia_Civ_01 {};
+	class mrshounka_92_civ : S_Skyline_Yellow {};
+	class mrshounka_92_civ_noir : S_Skyline_Yellow {};
+	class mrshounka_92_civ_jaune : S_Skyline_Yellow {};
 	class Jonzie_STI : Jonzie_30CSL {};
 	class ivory_wrx : shounka_clk {};
 	class Jonzie_Corolla : Jonzie_Mini_Cooper_R_spec {};
