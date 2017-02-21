@@ -80,6 +80,18 @@ player createDiarySubject ["controls","Steuerung"];
 					- = entfernt<br/>
 					~ = verändert<br/>
 					<br/>
+					21.02.2017 Modfix v0.0.3.4<br/>
+					- CUP Weapons aus Modset und Shops entfernt, da die Qualität zu schlecht war.<br/>
+					- RDS Civ Pack aus Modset und Shops entfernt, da es bei Benutzung Abstürtze von allen Clients und vom Server gab.<br/>
+					+ SMA Waffen in Modset aufgenommen und in Shops eingefügt.<br/>
+					- Werkzeugkästen aus Waffenshops entfernt, da unter Life 4.5 im virtuellen Inventar.<br/>
+					~ Sortiment des Tankstellenshops vergrößert.<br/>
+					~ Classnames von Taser- und Rubberballwaffen durch umkonfigurierte ersetzt.<br/>
+					~ Leichen nun lootbar.<br/>
+					+ Schwarzmarktshop für Polizeiwaffen hinzugefügt.<br/>
+					~ handleDamage umgeschrieben mit neuen Classnames für die Taser- und Rubberballwaffen.<br/>
+					<br/>
+					<br/>
 					17.01.2017 Passport v0.0.3.3<br/>
 					~ Taser und Rubberballwaffen gefixt.<br/>
 					- Bisheriger kaputter Ausweis entfernt.<br/>
