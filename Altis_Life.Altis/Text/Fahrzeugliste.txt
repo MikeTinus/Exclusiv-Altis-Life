@@ -6,7 +6,6 @@ EC635_AT
 EC635_Unarmed
 GR_UH1H_3
 GR_UH1H_1
-test
 
 //Rebellen
 ACR_Offroad_HMG
