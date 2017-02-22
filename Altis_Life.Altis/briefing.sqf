@@ -95,6 +95,7 @@ player createDiarySubject ["controls","Steuerung"];
 					- Alle Fahrzeuge von A3L und MrShounka aus Modset und Shops entfernt.<br/>
 					+ Autoalarm wieder eingefügt.<br/>
 					+ EMP für Polizei eingefügt.<br/>
+					~ Blaulichter sind nun wieder nach Einlagern in die Grage verfügbar.<br/>
 					<br/>
 					<br/>
 					17.01.2017 Passport v0.0.3.3<br/>
