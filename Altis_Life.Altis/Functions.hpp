@@ -289,6 +289,7 @@ class Life_Client_Core {
         class medicRequest {};
         class medicSiren {};
         class medicSirenLights {};
+		class medicOpener {};
         class onPlayerKilled {};
         class onPlayerRespawn {};
         class requestMedic {};

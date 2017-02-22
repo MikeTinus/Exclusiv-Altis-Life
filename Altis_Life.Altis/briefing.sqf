@@ -96,6 +96,7 @@ player createDiarySubject ["controls","Steuerung"];
 					+ Autoalarm wieder eingefügt.<br/>
 					+ EMP für Polizei eingefügt.<br/>
 					~ Blaulichter sind nun wieder nach Einlagern in die Grage verfügbar.<br/>
+					+ Medics können nun auch Schranken über 'O' öffnen.<br/>
 					<br/>
 					<br/>
 					17.01.2017 Passport v0.0.3.3<br/>
@@ -870,7 +871,7 @@ player createDiarySubject ["controls","Steuerung"];
 					Shift + R = Festnehmen<br/>
 					Shift + L = Blaulicht<br/>
 					L = Geschwindigkeit messen (benötigt P99!!!)<br/>
-					Alt + F = Sirene<br/>
+					F = Sirene<br/>
 					O = Schranke öffnen/schliessen (25m Reichweite)<br/>
 					Shift + T = Evakuierung starten (Fahrzeuglautsprecher)<br/>
 					Strg + T = Evakuierung aufheben (Fahrzeuglautsprecher)<br/>
