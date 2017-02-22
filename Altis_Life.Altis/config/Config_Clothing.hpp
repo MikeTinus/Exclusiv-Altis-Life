@@ -167,14 +167,27 @@ class Clothing {
         };
         vests[] = {
             { "NONE", "Remove Vest", 0, { "", "", -1 } },
-            { "TAC_V_Sheriff_BA_TB", "SEK-Weste", 35000, { "life_coplevel", "SCALAR", 6 } },
+            { "TAC_V_Sheriff_BA_TB", "SEK-Plattenträger", 35000, { "life_coplevel", "SCALAR", 6 } },
 			{ "EAL_polizei_guertel", "SEK-Battlebelt", 800, { "life_coplevel", "SCALAR", 6 } },
-			{ "TAC_V_Sheriff_BA_TBL7", "SEK-Weste", 35000, { "life_coplevel", "SCALAR", 7 } },
-			{ "TAC_V_Sheriff_BA_TBL", "SEK-Weste schwer", 35000, { "life_coplevel", "SCALAR", 8 } },
+			{ "TAC_HSG_ABH_B", "SEK-Battlebelt", 800, { "life_coplevel", "SCALAR", 6 } },
+			{ "TAC_HSG_ABL_B", "SEK-Battlebelt", 800, { "life_coplevel", "SCALAR", 6 } },
+			{ "TAC_V_Sheriff_BA_TBL7", "SEK-Plattenträger", 35000, { "life_coplevel", "SCALAR", 7 } },
+			{ "TAC_V_Sheriff_BA_TB2", "SEK-Plattenträger Assault", 35000, { "life_coplevel", "SCALAR", 7 } },
+			{ "TAC_V_Sheriff_BA_TB3", "SEK-Plattenträger CQB", 35000, { "life_coplevel", "SCALAR", 7 } },
+			{ "TAC_V_Sheriff_BA_TB7", "SEK-Plattenträger Gren", 35000, { "life_coplevel", "SCALAR", 7 } },
+			{ "TAC_V_Sheriff_BA_TB4", "SEK-Plattenträger Medic", 35000, { "life_coplevel", "SCALAR", 7 } },
+			{ "TAC_V_Sheriff_BA_TB6", "SEK-Plattenträger Pointman", 35000, { "life_coplevel", "SCALAR", 7 } },
+			{ "TAC_V_Sheriff_BA_TB5", "SEK-Plattenträger MG", 35000, { "life_coplevel", "SCALAR", 7 } },
+			{ "TAC_V_Sheriff_BA_TBL", "SEK-Plattenträger schwer", 35000, { "life_coplevel", "SCALAR", 8 } },
+			{ "TAC_V_Sheriff_BA_TBL3_BK", "SEK-Plattenträger schwer", 35000, { "life_coplevel", "SCALAR", 8 } },
+			{ "TAC_V_Sheriff_BA_TBL4", "SEK-Plattenträger schwer", 35000, { "life_coplevel", "SCALAR", 8 } },
 			{ "EAL_polizei_plattentraeger_schwer", "schwerer SEK-Plattenträger (SK IV)", 75000, { "life_coplevel", "SCALAR", 9 } },
 			{ "EAL_polizei_plattentraeger_breacher", "Explosionsgeschützter SEK-Plattenträger (SK III)", 50000, { "life_coplevel", "SCALAR", 10 } },
 			{ "EAL_polizei_plattentraeger_leicht", "SEK-Plattenträger", 25000, { "life_coplevel", "SCALAR", 12 } },
-			{ "EAL_polizei_weste_leicht", "leichte SEK-Weste", 35000, { "life_coplevel", "SCALAR", 14 } },
+			{ "TAC_FS_FOL_B", "SEK-JPC", 25000, { "life_coplevel", "SCALAR", 13 } },
+			{ "TAC_V_CTBA", "SEK-Plattenträger", 25000, { "life_coplevel", "SCALAR", 13 } },
+			{ "TAC_V_CTBA2", "SEK-Plattenträger", 25000, { "life_coplevel", "SCALAR", 13 } },
+			{ "EAL_polizei_weste_leicht", "leichte SEK-Weste", 35000, { "life_coplevel", "SCALAR", 15 } },
 			{ "EAL_polizei_weste_schwer", "SEK-Weste", 10000, { "life_coplevel", "SCALAR", 16 } }
         };
         backpacks[] = {
@@ -199,7 +212,7 @@ class Clothing {
             { "H_Watchcap_blk", "Beanie", 75, { "life_coplevel", "SCALAR", 1 } },
 			{ "H_Cap_blk", "Polizeimütze", 250, { "life_coplevel", "SCALAR", 4 } },
 			{ "EAL_polizei_uscap", "Polizeimütze mit Headset", 5000, { "life_coplevel", "SCALAR", 10 } },
-			{ "H_Beret_blk_POLICE", "Beret", 75, { "life_coplevel", "SCALAR", 11 } },
+			{ "H_Beret_blk_POLICE", "Beret", 75, { "life_coplevel", "SCALAR", 12 } },
 			{ "H_Beret_Colonel", "PD Beret", 75, { "life_coplevel", "SCALAR", 15 } },
 			{ "H_Beret_02", "PP Beret", 75, { "life_coplevel", "SCALAR", 17 } }
         };
@@ -221,11 +234,14 @@ class Clothing {
         };
         vests[] = {
             { "NONE", "Remove Vest", 0, { "", "", -1 } },
-            { "EAL_polizei_guertel", "Polizeigürtel", 800, { "life_coplevel", "SCALAR", 1 } },
+            { "TAC_HGB_B", "Polizeigürtel", 800, { "life_coplevel", "SCALAR", 1 } },
+			{ "EAL_polizei_guertel", "Polizeigürtel", 800, { "life_coplevel", "SCALAR", 3 } },
+			{ "TAC_FS_FOL_B", "JPC", 50000, { "life_coplevel", "SCALAR", 5 } },
 			{ "EAL_polizei_weste_leicht", "", 35000, { "life_coplevel", "SCALAR", 7 } },
-			{ "EAL_polizei_weste_schwer", "Nur im Notfall! schwere Polizeiweste", 50000, { "life_coplevel", "SCALAR", 8 } },
-			{ "V_BandollierB_blk", "Polizeigurt", 250, { "life_coplevel", "SCALAR", 10 } },
-			{ "V_Chestrig_blk", "Polizeikoppel", 2500, { "life_coplevel", "SCALAR", 11 } },
+			{ "EAL_polizei_weste_schwer", "Nur im Notfall! schwere Polizeiweste", 50000, { "life_coplevel", "SCALAR", 9 } },
+			{ "TAC_PBDFG2CPL_BK", "PdZ-Weste leicht Kragen Battlebelt", 80000, { "life_coplevel", "SCALAR", 11 } },
+			{ "TAC_V_Sheriff_BA_TB3", "Plattenträger OHK", 60000, { "life_coplevel", "SCALAR", 13 } },
+			{ "V_BandollierB_blk", "Polizeigurt", 250, { "life_coplevel", "SCALAR", 15 } },
 			{ "EAL_polizei_plattentraeger_schwer", "schwerer Plattenträger", 50000, { "life_coplevel", "SCALAR", 17 } }
         };
         backpacks[] = {
@@ -252,6 +268,8 @@ class Clothing {
             { "NONE", "Remove Hat", 0, { "", "", -1 } },
             { "H_Watchcap_blk", "Beanie", 75, { "", "", -1 } },
 			{ "H_Cap_tan", "", 250, { "", "", -1 } },
+			{ "H_Cap_blk", "Polizeimütze", 250, { "life_coplevel", "SCALAR", 10 } },
+			{ "H_Beret_blk_POLICE", "Beret", 75, { "life_coplevel", "SCALAR", 13 } },
 			{ "H_Shemag_olive", "Rebell", 25000, { "", "", -1 } }
         };
         goggles[] = {
@@ -272,10 +290,15 @@ class Clothing {
         };
         vests[] = {
             { "NONE", "Remove Vest", 0, { "", "", -1 } },
-            { "V_Rangemaster_belt", "Polizeigürtel", 800, { "", "", -1 } },
+			{ "TAC_HGB_B", "Polizeigürtel", 800, { "life_coplevel", "SCALAR", 6 } },
+			{ "TAC_PBDFG2_B_1", "PdZ-Weste", 60000, { "life_coplevel", "SCALAR", 7 } },
+            { "V_Rangemaster_belt", "Battlebelt", 800, { "life_coplevel", "SCALAR", 8 } },
 			{ "V_HarnessO_brn", "Rebell", 25000, { "", "", -1 } },
-			{ "EAL_polizei_weste_leicht", "", 35000, { "", "", -1 } },
-			{ "EAL_polizei_weste_warn", "", 35000, { "", "", -1 } }
+			{ "EAL_polizei_weste_leicht", "", 35000, { "life_coplevel", "SCALAR", 9 } },
+			{ "EAL_polizei_weste_warn", "", 35000, { "life_coplevel", "SCALAR", 9 } },
+			{ "EAL_polizei_weste_schwer", "", 55000, { "life_coplevel", "SCALAR", 10 } },
+			{ "TAC_Jvest_U", "Weste", 35000, { "life_coplevel", "SCALAR", 13 } },
+			{ "TAC_FS_FO_B", "Polizei-JPC", 70000, { "life_coplevel", "SCALAR", 14 } }
         };
         backpacks[] = {
             { "NONE", "Remove Backpack", 0, { "", "", -1 } },
@@ -416,9 +439,9 @@ class Clothing {
             { "NONE", "Remove Hat", 0, { "", "", -1 } },
             { "H_Watchcap_blk", "Beanie", 75, { "life_coplevel", "SCALAR", 1 } },
 			{ "H_Cap_blk", "Polizeimütze", 250, { "life_coplevel", "SCALAR", 4 } },
-			{ "H_HelmetB_black", "Emergency Only! Polizeihelm", 25000, { "life_coplevel", "SCALAR", 8 } },
+			{ "H_HelmetB_black", "Polizeihelm", 25000, { "life_coplevel", "SCALAR", 8 } },
 			{ "EAL_polizei_uscap", "Polizeimütze mit Headset", 5000, { "life_coplevel", "SCALAR", 10 } },
-			{ "H_Beret_blk_POLICE", "Beret", 75, { "life_coplevel", "SCALAR", 11 } },
+			{ "H_Beret_blk_POLICE", "Beret", 75, { "life_coplevel", "SCALAR", 12 } },
 			{ "H_Beret_Colonel", "PD Beret", 75, { "life_coplevel", "SCALAR", 15 } },
 			{ "H_Beret_02", "PP Beret", 75, { "life_coplevel", "SCALAR", 17 } },
 			{ "H_HelmetB_light_black", "Helm schwarz", 75, { "life_coplevel", "SCALAR", 20 } },
@@ -444,15 +467,27 @@ class Clothing {
         };
         vests[] = {
             { "NONE", "Remove Vest", 0, { "", "", -1 } },
-            { "EAL_polizei_guertel", "Polizeigürtel", 800, { "life_coplevel", "SCALAR", 1 } },
+            { "TAC_HGB_B", "Polizeigürtel", 800, { "life_coplevel", "SCALAR", 1 } },
+			{ "EAL_polizei_guertel", "Polizeigürtel", 800, { "life_coplevel", "SCALAR", 2 } },
+			{ "TAC_HSG_ABH_B", "Polizeibattlebelt", 8000, { "life_coplevel", "SCALAR", 3 } },
+			{ "TAC_HSG_ABL_B", "Polizeibattlebelt", 8000, { "life_coplevel", "SCALAR", 4 } },
+			{ "TAC_PBDFG2_B_1", "PdZ-Weste", 70000, { "life_coplevel", "SCALAR", 5 } },
 			{ "V_RebreatherB", "", 25000, { "life_coplevel", "SCALAR", 6 } },
-			{ "EAL_polizei_weste_leicht", "", 35000, { "life_coplevel", "SCALAR", 7 } },
-			{ "EAL_polizei_weste_warn", "", 35000, { "life_coplevel", "SCALAR", 7 } },
-			{ "EAL_polizei_weste_schwer", "Emergency only! schwere Polizeiweste", 50000, { "life_coplevel", "SCALAR", 8 } },
-			{ "V_BandollierB_blk", "Polizeigurt", 25000, { "life_coplevel", "SCALAR", 10 } },
-			{ "V_Chestrig_blk", "Polizeikoppel", 2500, { "life_coplevel", "SCALAR", 11 } },
-			{ "EAL_polizei_plattentraeger_leicht", "Emergency only! schwerere Polizeiweste", 50000, { "life_coplevel", "SCALAR", 13 } },
-			{ "EAL_polizei_plattentraeger_schwer", "sehr schwere Polizeiweste", 50000, { "life_coplevel", "SCALAR", 17 } },
+			{ "EAL_polizei_weste_leicht", "", 35000, { "life_coplevel", "SCALAR", 6 } },
+			{ "EAL_polizei_weste_warn", "", 35000, { "life_coplevel", "SCALAR", 6 } },
+			{ "EAL_polizei_weste_schwer", "", 50000, { "life_coplevel", "SCALAR", 7 } },
+			{ "TAC_FS_FO_B", "Polizei-JPC", 75000, { "life_coplevel", "SCALAR", 8 } },
+			{ "TAC_FS_FOL_B", "Polizei-JPC Battlebelt", 80000, { "life_coplevel", "SCALAR", 9 } },
+			{ "TAC_PBDFG2C_B_1", "PdZ-Weste Kragen", 75000, { "life_coplevel", "SCALAR", 10 } },
+			{ "TAC_V_Sheriff_BA_TB", "Polizei-Plattenträger", 90000, { "life_coplevel", "SCALAR", 11 } },
+			{ "TAC_PBDFG2CPL_BK", "PdZ-Weste Kragen Battlebelt", 85000, { "life_coplevel", "SCALAR", 12 } },
+			{ "TAC_PBDFG2D_B", "PdZ-Weste Kragen Battlebelt Beintasche", 88000, { "life_coplevel", "SCALAR", 13 } },
+			{ "TAC_V_Sheriff_BA_TB3", "Polizei-Plattenträger", 90000, { "life_coplevel", "SCALAR", 14 } },
+			{ "V_BandollierB_blk", "Polizeigurt", 25000, { "life_coplevel", "SCALAR", 15 } },
+			{ "TAC_V_CTBA", "Polizei-Plattenträger", 95000, { "life_coplevel", "SCALAR", 16 } },
+			{ "TAC_V_CTBA2", "Polizei-Plattenträger", 95000, { "life_coplevel", "SCALAR", 16 } },
+			{ "EAL_polizei_plattentraeger_leicht", "schwerere Polizeiweste", 50000, { "life_coplevel", "SCALAR", 17 } },
+			{ "EAL_polizei_plattentraeger_schwer", "sehr schwere Polizeiweste", 50000, { "life_coplevel", "SCALAR", 18 } },
 			{ "EAL_polizei_plattentraeger_breacher", "schwerste Polizeiweste", 50000, { "life_coplevel", "SCALAR", 19 } }
         };
         backpacks[] = {

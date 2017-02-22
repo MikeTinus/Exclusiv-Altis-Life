@@ -1,6 +1,6 @@
 this addVest "TAC_HSG_ABH_B";			Battlebelt 1
 this addVest "TAC_HSG_ABL_B";			Battlebelt 2
-this addVest "TAC_PBDFG2_B_1";			IdZ Weste leer
+this addVest "TAC_PBDFG2_B_1";			PdZ Weste leer
 this addVest "TAC_PBDFG2C_B_1";			" 	" 	" Kragen
 this addVest "TAC_PBDFG2CPL_BK";		" 	" leicht Kragen Battlebelt
 this addVest "TAC_PBDFG2D_B";			" 	" 	" Beintasche
