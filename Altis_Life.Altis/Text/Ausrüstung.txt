@@ -1,12 +1,4 @@
 Kleidung:
-rds_uniform_assistant; (Ladeverkäufer [20. Jhr.])
-rds_uniform_citizen1; (lange schwarze Hose, Wollpulli und graue Lederjacke)
-rds_uniform_citizen2; (lange graue Hose, Wollpulli und braune Lederjacke)
-rds_uniform_citizen3; (lange violette Hose, Wollpulli und orange Lederjacke)
-rds_uniform_citizen4; (lange blaue Hose, Wollpulli und schwarze Lederjacke)
-rds_uniform_doctor; (Doktorkleidung)
-rds_uniform_Functionary1; (schwarzer Anzug mit rotem Slips)
-rds_uniform_Functionary2; (roter Anzug mit blauem Slips)
 eaglkes_wwi_fr_pilot_cloth; (brauner Ganzkörperanzug mit weißem Schall)
 eaglkes_wwi_ger_pilot_cloth; (grauer Ganzkörperanzug mit weißerm Schall)
 rds_uniform_priest; (Priesterkleidung)
