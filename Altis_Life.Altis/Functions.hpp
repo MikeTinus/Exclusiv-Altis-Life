@@ -375,6 +375,17 @@ class Life_Client_Core {
         class weaponShopMenu {};
         class weaponShopSelection {};
     };
+	
+	class Special {
+		file = "core\special";
+		class openEmpMenu {};
+		class isEmpOperator {};
+		class scanVehicles {};
+		class warnVehicle {};
+		class empVehicle {};
+		class vehicleWarned {};
+		class vehicleEmpd {};
+	};
 
     class Vehicle {
         file = "core\vehicle";

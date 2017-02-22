@@ -80,7 +80,7 @@ player createDiarySubject ["controls","Steuerung"];
 					- = entfernt<br/>
 					~ = verändert<br/>
 					<br/>
-					21.02.2017 Modfix v0.0.3.4<br/>
+					22.02.2017 Modfix v0.0.3.4<br/>
 					- CUP Weapons aus Modset und Shops entfernt, da die Qualität zu schlecht war.<br/>
 					- RDS Civ Pack aus Modset und Shops entfernt, da es bei Benutzung Abstürtze von allen Clients und vom Server gab.<br/>
 					+ SMA Waffen in Modset aufgenommen und in Shops eingefügt.<br/>
@@ -90,6 +90,11 @@ player createDiarySubject ["controls","Steuerung"];
 					~ Leichen nun lootbar.<br/>
 					+ Schwarzmarktshop für Polizeiwaffen hinzugefügt.<br/>
 					~ handleDamage umgeschrieben mit neuen Classnames für die Taser- und Rubberballwaffen.<br/>
+					~ Polizeikleidung neu verteilt. Alte TRYK-Kleidung durch neue ersetzt.<br/>
+					- Vom Script gespawnte Krankenhäuser entfernt.<br/>
+					- Alle Fahrzeuge von A3L und MrShounka aus Modset und Shops entfernt.<br/>
+					+ Autoalarm wieder eingefügt.<br/>
+					+ EMP für Polizei eingefügt.<br/>
 					<br/>
 					<br/>
 					17.01.2017 Passport v0.0.3.3<br/>
