@@ -97,6 +97,7 @@ player createDiarySubject ["controls","Steuerung"];
 					+ EMP für Polizei eingefügt.<br/>
 					~ Blaulichter sind nun wieder nach Einlagern in die Grage verfügbar.<br/>
 					+ Medics können nun auch Schranken über 'O' öffnen.<br/>
+					- Blue Force Tracking deaktiviert.<br/>
 					<br/>
 					<br/>
 					17.01.2017 Passport v0.0.3.3<br/>
