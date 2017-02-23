@@ -164,7 +164,7 @@ if ((_vInfo select 1) isEqualTo "cop" && ((_vInfo select 2)) in ["I_MRAP_03_F","
     [_vehicle,"cop_offroad",true] remoteExecCall ["life_fnc_vehicleAnimate",_unit];
 };
 
-if ((_vInfo select 1) isEqualTo "med" && (_vInfo select 2) isEqualTo "C_Offroad_01_F") then {
+if ((_vInfo select 1) isEqualTo "med" && (_vInfo select 2) isEqualTo "C_Offroad_01_F","C_Van_01_box_F","C_SUV_01_F","O_Heli_Light_02_unarmed_F") then {
     [_vehicle,"med_offroad",true] remoteExecCall ["life_fnc_vehicleAnimate",_unit];
 };
 
