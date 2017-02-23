@@ -1200,10 +1200,26 @@ will modify the virtual space and the price of the vehicle, but other informatio
 	
 	class C_Van_01_box_F : C_Van_01_transport_F {
         vItemSpace = 150;
+		licenses[] = { {"driver"}, {""}, {"mDriver"}, {""} };
         price = 185000;
+		textures[] = {
+            { "Weiß", "civ", {
+                "\a3\soft_f_gamma\Van_01\Data\van_01_ext_co.paa"
+            } },
+            { "Rot", "civ", {
+                "\a3\soft_f_gamma\Van_01\Data\van_01_ext_red_co.paa"
+            } },
+			{ "Medic", "med", {
+                "\EAL_Textures\Texturen\vehicles\medic_rtw_1.paa",
+				"\EAL_Textures\Texturen\vehicles\medic_rtw_2.paa"
+            } }
+        };
     };
 	
-	class Jonzie_Transit : C_Van_01_box_F {};
+	class Jonzie_Transit : C_Van_01_transport_F {
+		vItemSpace = 150;
+        price = 185000;
+	};
 	
 	class C_Van_01_fuel_F : C_Van_01_transport_F {
         vItemSpace = 180;
