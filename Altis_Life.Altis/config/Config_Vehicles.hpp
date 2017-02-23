@@ -255,7 +255,9 @@ class CarShops {
     class med_air_hs {
         side = "med";
         vehicles[] = {
-            { "O_Heli_Light_02_unarmed_F", { "life_mediclevel", "SCALAR", 2 } }
+            { "O_Heli_Light_02_unarmed_F", { "life_mediclevel", "SCALAR", 2 } },
+			{ "EC635_SAR", { "life_mediclevel", "SCALAR", 3 } },
+			{ "IVORY_BELL512_RESCUE", { "life_mediclevel", "SCALAR", 4 } }
         };
     };
 
@@ -1347,6 +1349,9 @@ will modify the virtual space and the price of the vehicle, but other informatio
     };
 	
 	class O_Heli_Light_02_F : O_Heli_Light_02_v2_F {};
+	class IVORY_BELL512_RESCUE : O_Heli_Light_02_unarmed_F {
+		price = 700000;
+	};
 	
 	class EAL_Orca : O_Heli_Light_02_unarmed_F {
         textures[] = {};
@@ -1560,12 +1565,16 @@ will modify the virtual space and the price of the vehicle, but other informatio
 	
 	class EC635 {
         vItemSpace = 10;
-        licenses[] = { {""}, {"cAir"}, {""}, {""} };
+        licenses[] = { {""}, {"cAir"}, {"mAir"}, {""} };
         price = 1200000;
         textures[] = {};
     };
 	
 	class EC635_AT : EC635 {
+		price = 600000;
+	};
+	
+	class EC635_SAR : EC635 {
 		price = 600000;
 	};
 	

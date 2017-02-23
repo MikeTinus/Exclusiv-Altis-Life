@@ -80,7 +80,7 @@ player createDiarySubject ["controls","Steuerung"];
 					- = entfernt<br/>
 					~ = verändert<br/>
 					<br/>
-					22.02.2017 Modfix v0.0.3.4<br/>
+					23.02.2017 Modfix/Medic v0.0.3.4<br/>
 					- CUP Weapons aus Modset und Shops entfernt, da die Qualität zu schlecht war. #8<br/>
 					- RDS Civ Pack aus Modset und Shops entfernt, da es bei Benutzung Abstürtze von allen Clients und vom Server gab. #17<br/>
 					+ SMA Waffen in Modset aufgenommen und in Shops eingefügt. #8<br/>
@@ -100,6 +100,7 @@ player createDiarySubject ["controls","Steuerung"];
 					- Blue Force Tracking deaktiviert. #30<br/>
 					+ Textur zu Truck Box (Mdeics) hinzugefügt. #28<br/>
 					+ Blaulichter zu Medicfahrzeugen hinzugefügt. #28<br/>
+					+ EC-635 und UH1 in Medicshop hinzugefügt.<br/>
 					<br/>
 					<br/>
 					17.01.2017 Passport v0.0.3.3<br/>
